@@ -1,0 +1,2682 @@
+[
+    {
+        "pagina": 1,
+        "arquivo": "01.jpg",
+        "largura": 800,
+        "altura": 3982,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    119,
+                    1881,
+                    677,
+                    2144
+                ],
+                "texto": "THE VIBRANT SEASON WHEN CHERRY BLOSSOMS ARE IN FULL BLOOM...",
+                "traducao": "A estação vibrante em que as cerejeiras estão em plena floração..."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    246,
+                    615,
+                    571,
+                    807
+                ],
+                "texto": "APRIL,",
+                "traducao": "Abril,"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    63,
+                    2691,
+                    756,
+                    2921
+                ],
+                "texto": "FOR ELEMENTARY, MIDDLE, AND HIGH SCHOOL STUDENTS, IT'S THE EXCITING START OF A NEW SEMESTER.",
+                "traducao": "Para alunos do ensino fundamental, médio e técnico, é o emocionante começo de um novo semestre."
+            }
+        ]
+    },
+    {
+        "pagina": 2,
+        "arquivo": "02.jpg",
+        "largura": 800,
+        "altura": 3983,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    136,
+                    886,
+                    681,
+                    1126
+                ],
+                "texto": "BUT FOR A RETAKE STUDENT,",
+                "traducao": "PARA UM ALUNO QUE PRECISA REFATER"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    50,
+                    0,
+                    747,
+                    225
+                ],
+                "texto": "FOR UNIVERSITY STUDENTS, IT'S THEIR TIME TO FULLY ENJOY THE CAMPUS LIFE THEY'VE DREAMED OF.",
+                "traducao": "Para estudantes universitários, é o momento de aproveitar ao máximo a vida no campus que sempre sonharam."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    121,
+                    2250,
+                    664,
+                    2515
+                ],
+                "texto": "THERE'S NO SUCH THING.",
+                "traducao": "Não existe."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    42,
+                    3548,
+                    765,
+                    3874
+                ],
+                "texto": "[EXAM FAILURE] PUNISHMENT FOR NOT FULFILLING ONE'S DUTIES AS A STUDENT.",
+                "traducao": "REPROVAÇÃO. PUNIÇÃO POR NÃO CUMPRIR AS OBRIGAÇÕES DE UM ESTUDANTE."
+            }
+        ]
+    },
+    {
+        "pagina": 3,
+        "arquivo": "03.jpg",
+        "largura": 800,
+        "altura": 3360,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    43,
+                    1774,
+                    766,
+                    1982
+                ],
+                "texto": "A ROSY YOUTH IS ABSOLUTELY FORBIDDEN FOR THEM.",
+                "traducao": "A juventude exuberante é absolutamente proibida para eles."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    92,
+                    2514,
+                    712,
+                    2715
+                ],
+                "texto": "I AM ALSO ONE OF THE MANY RETAKE STUDENTS.",
+                "traducao": "Eu também sou um dos muitos estudantes que fazem retoma."
+            }
+        ]
+    },
+    {
+        "pagina": 4,
+        "arquivo": "04.jpg",
+        "largura": 800,
+        "altura": 3360,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    172,
+                    1368,
+                    646,
+                    1594
+                ],
+                "texto": "HEY, HO-YAH~!",
+                "traducao": "E aí, e aí~!"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    98,
+                    645,
+                    714,
+                    841
+                ],
+                "texto": "I AM ALSO ONE OF THE MANY RETAKE STUDENTS.",
+                "traducao": "Eu também sou um dos muitos estudantes que fazem repetição."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    0,
+                    2416,
+                    164,
+                    2556
+                ],
+                "texto": "-",
+                "traducao": "Por favor, forneça o texto em inglês que você deseja que eu traduza."
+            }
+        ]
+    },
+    {
+        "pagina": 5,
+        "arquivo": "05.jpg",
+        "largura": 800,
+        "altura": 4372,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    148,
+                    2113,
+                    681,
+                    2305
+                ],
+                "texto": "YOU'RE EARLY TODAY!",
+                "traducao": "Você está cedo hoje!"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    221,
+                    91,
+                    602,
+                    264
+                ],
+                "texto": "HI~ GOOD MORNING!",
+                "traducao": "Oi~ Bom dia!"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    436,
+                    2984,
+                    756,
+                    3144
+                ],
+                "texto": "CAN YOU STOP CALLING ME BY THAT NAME LIKE THAT..?",
+                "traducao": "Você pode parar de me chamar por aquele nome assim, então...?"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    103,
+                    2813,
+                    383,
+                    2988
+                ],
+                "texto": "UGH, SERIOUSLY, STOP..!!",
+                "traducao": "Nossa, sério, para, por favor,!!"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    70,
+                    3825,
+                    398,
+                    3952
+                ],
+                "texto": "OHHH~ HO-YAH IS TALKING BACK NOW?",
+                "traducao": "Ohhh~ O-YAH está respondendo agora?"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    390,
+                    4031,
+                    731,
+                    4134
+                ],
+                "texto": "YOU'VE GROWN UP, HUH?",
+                "traducao": "Você já cresceu, né?"
+            }
+        ]
+    },
+    {
+        "pagina": 6,
+        "arquivo": "06.jpg",
+        "largura": 800,
+        "altura": 4373,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    47,
+                    308,
+                    349,
+                    473
+                ],
+                "texto": "TODAY, I'M GOING TO SOLVE THE MOCK EXAM FROM 2019.",
+                "traducao": "Hoje, vou resolver a prova simulada de 2019."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    423,
+                    459,
+                    756,
+                    592
+                ],
+                "texto": "WANNA BET WHO SCORES HIGHER?",
+                "traducao": "Quer apostar quem faz mais pontos?"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    101,
+                    1797,
+                    708,
+                    2138
+                ],
+                "texto": "WHERE DID ALL THOSE SWEET WORDS THAT WERE SAID EARLIER DISAPPEAR TO?",
+                "traducao": "Onde foram parar todas aquelas palavras doces que foram ditas antes?"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    42,
+                    2299,
+                    335,
+                    2429
+                ],
+                "texto": "HOW ABOUT THE LOSER BUYS FOOD?",
+                "traducao": "E aí, o perdedor paga a conta?"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    401,
+                    1311,
+                    567,
+                    1370
+                ],
+                "texto": "• • • • •",
+                "traducao": "• • • • •"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    453,
+                    3152,
+                    638,
+                    3234
+                ],
+                "texto": "DEAL?",
+                "traducao": "Feito?"
+            },
+            {
+                "caixa": 7,
+                "bbox": [
+                    185,
+                    3397,
+                    622,
+                    3586
+                ],
+                "texto": "YOU MIGHT THINK SHE'S MOCKING ME,",
+                "traducao": "Você pode pensar que ela está me provocando,"
+            },
+            {
+                "caixa": 8,
+                "bbox": [
+                    182,
+                    4173,
+                    625,
+                    4309
+                ],
+                "texto": "BUT RIGHT NOW,",
+                "traducao": "Mas, neste momento,"
+            }
+        ]
+    },
+    {
+        "pagina": 7,
+        "arquivo": "07.jpg",
+        "largura": 800,
+        "altura": 4490,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    480,
+                    955,
+                    759,
+                    1027
+                ],
+                "texto": "ANSWER ME.",
+                "traducao": "Responda."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    57,
+                    1351,
+                    770,
+                    1466
+                ],
+                "texto": "SHE'S TRYING TO DESTROY ME.",
+                "traducao": "Ela está tentando me destruir."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    452,
+                    3255,
+                    752,
+                    3501
+                ],
+                "texto": "3-4",
+                "traducao": "3-4"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    222,
+                    2734,
+                    605,
+                    3161
+                ],
+                "texto": "B",
+                "traducao": "B"
+            }
+        ]
+    },
+    {
+        "pagina": 8,
+        "arquivo": "08.jpg",
+        "largura": 800,
+        "altura": 4490,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    208,
+                    1883,
+                    634,
+                    2036
+                ],
+                "texto": "YEO JIWOO.",
+                "traducao": "YEO JIWOO."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    73,
+                    3307,
+                    734,
+                    3554
+                ],
+                "texto": "A GIRL WHO GOES TO THE SAME RETAKE ACADEMY, AND IS IN THE SAME CLASS AS ME.",
+                "traducao": "Uma garota que faz a mesma prova de retoma e que está na mesma turma que eu."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    82,
+                    4188,
+                    745,
+                    4445
+                ],
+                "texto": "WITH LOOKS THAT OUTSHINE CELEBRITIES AND TOP-NOTCH GRADES, SHE'S AN ABSURDLY OVERPOWERED CHARACTER.",
+                "traducao": "Com aparências que superam celebridades e notas de excelência, ela é um personagem absurdamente poderoso."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    0,
+                    3144,
+                    174,
+                    3205
+                ],
+                "texto": "H",
+                "traducao": "H"
+            }
+        ]
+    },
+    {
+        "pagina": 9,
+        "arquivo": "09.jpg",
+        "largura": 800,
+        "altura": 4407,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    23,
+                    1130,
+                    763,
+                    1358
+                ],
+                "texto": "SHE'S FAMOUS THROUGHOUT THE ACADEMY, AND THERE ISN'T ANYBODY WHO DOESN'T KNOW HER.",
+                "traducao": "Ela é famosa em toda a academia e não existe ninguém que ela não conheça."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    158,
+                    1785,
+                    703,
+                    1959
+                ],
+                "texto": "THE ACADEMY'S MOST NOTABLE TROUBLEMAKER.",
+                "traducao": "O mais notável problemático da Academia."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    208,
+                    362,
+                    372,
+                    453
+                ],
+                "texto": "",
+                "traducao": ""
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    91,
+                    3815,
+                    750,
+                    3967
+                ],
+                "texto": "I CAN ALREADY LIST THE [INCIDENTS] CAUSED BY YEO JIWOO SO FAR:",
+                "traducao": "Eu já consigo listar os [INCIDENTES] causados por Yeo Jiwoo até agora:"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    182,
+                    2811,
+                    638,
+                    2966
+                ],
+                "texto": "ABOUT A MONTH AFTER THE ACADEMY STARTED,",
+                "traducao": "Cerca de um mês após a academia começar,"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    116,
+                    3086,
+                    248,
+                    3133
+                ],
+                "texto": "EZMANGA",
+                "traducao": "EZMANGA"
+            }
+        ]
+    },
+    {
+        "pagina": 10,
+        "arquivo": "10.jpg",
+        "largura": 800,
+        "altura": 4409,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    130,
+                    1596,
+                    725,
+                    1877
+                ],
+                "texto": "A RESTRICTION WAS IMPOSED ON STUDENTS FROM OTHER CLASSES ENTERING OUR HALLWAY.",
+                "traducao": "Foi imposto um restrições aos alunos de outras turmas entrarem no nosso corredor."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    337,
+                    387,
+                    498,
+                    507
+                ],
+                "texto": "HEY, YOU IDIOTS!",
+                "traducao": "Ei, vocês idiotas!"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    37,
+                    47,
+                    779,
+                    263
+                ],
+                "texto": "ON THE FIRST DAY OF THE SEMESTER, THE HALLWAY TO OUR CLASS WAS FILLED WITH PEOPLE WHO CAME JUST TO SEE HER.",
+                "traducao": "No primeiro dia do semestre, o corredor do nosso curso estava cheio de pessoas que vieram apenas para vê-la."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    164,
+                    2237,
+                    671,
+                    2357
+                ],
+                "texto": "ON MARCH 14, WHITE DAY,",
+                "traducao": "Em 14 de março, Dia Branco,"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    89,
+                    450,
+                    199,
+                    539
+                ],
+                "texto": "oR 4o",
+                "traducao": "quatro zero"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    98,
+                    4195,
+                    710,
+                    4335
+                ],
+                "texto": "SHE'S RECEIVED 18 CONFESSIONS IN JUST A MONTH.",
+                "traducao": "Ela recebeu 18 confissões em apenas um mês."
+            },
+            {
+                "caixa": 7,
+                "bbox": [
+                    36,
+                    3471,
+                    770,
+                    3691
+                ],
+                "texto": "WE HAD TO USE A SHOVEL TO CLEAR THE MOUNTAIN OF CANDIES AND CHOCOLATES LEFTON YEO JIWOO'S DESK.",
+                "traducao": "Tivemos que usar uma pá para limpar a montanha de doces e chocolates que estava no balcão de Yeo Jiwoo."
+            },
+            {
+                "caixa": 8,
+                "bbox": [
+                    260,
+                    3205,
+                    536,
+                    3339
+                ],
+                "texto": "**",
+                "traducao": "Por favor, forneça o texto em inglês que você deseja que eu traduza."
+            },
+            {
+                "caixa": 9,
+                "bbox": [
+                    290,
+                    3035,
+                    377,
+                    3078
+                ],
+                "texto": "CANDY",
+                "traducao": "Goma de mascar"
+            },
+            {
+                "caixa": 10,
+                "bbox": [
+                    2,
+                    2405,
+                    331,
+                    2454
+                ],
+                "texto": "PR/N: White day is when men give chocolates to women as a return gift for Valentine's Day.",
+                "traducao": "PR/N: O Dia Branco é quando os homens dão chocolates às mulheres como um presente de agradecimento pelo Dia dos Namorados."
+            },
+            {
+                "caixa": 11,
+                "bbox": [
+                    624,
+                    3204,
+                    800,
+                    3342
+                ],
+                "texto": "++++ * **** +++++",
+                "traducao": "++++ * **** +++++"
+            }
+        ]
+    },
+    {
+        "pagina": 11,
+        "arquivo": "11.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    43,
+                    1285,
+                    790,
+                    1510
+                ],
+                "texto": "THE COMPETITION AMONG BOYS WHO CONFESSED TO HER WAS SO FIERCE THAT IT LED TO A GROUP BRAWL.",
+                "traducao": "A rivalidade entre os meninos que confessaram a ela era tão intensa que resultou em uma briga em grupo."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    94,
+                    1827,
+                    704,
+                    2025
+                ],
+                "texto": "NONE OF THEM COULD WIN YEO JIWOO'S HEART.",
+                "traducao": "Ninguém deles conseguiu conquistar o coração de Yeo Jiwoo."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    22,
+                    3085,
+                    752,
+                    3255
+                ],
+                "texto": "ACCORDING TO THE ACADEMY'S STRICT RULES, THEY WERE ALL EXPELLED.",
+                "traducao": "De acordo com as rigorosas regras da academia, todos foram expulsos."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    68,
+                    3675,
+                    729,
+                    3866
+                ],
+                "texto": "DUE TO THESE EVENTS, YEO JIWOO EARNED THE NICKNAME,",
+                "traducao": "Devido a estes eventos, Yeo Jiwoo ganhou o apelido,"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    92,
+                    4334,
+                    731,
+                    4490
+                ],
+                "texto": "THE ENCHANTING",
+                "traducao": "Encantador"
+            }
+        ]
+    },
+    {
+        "pagina": 12,
+        "arquivo": "12.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    244,
+                    1747,
+                    537,
+                    1882
+                ],
+                "texto": "'WITcH\"",
+                "traducao": "bruxa"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    0,
+                    1420,
+                    135,
+                    1472
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    94,
+                    2820,
+                    688,
+                    3051
+                ],
+                "texto": "ANY GUY WHO GETS INVOLVED WITH HER",
+                "traducao": "Qualquer pessoa que se envolva com ela."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    84,
+                    4167,
+                    705,
+                    4462
+                ],
+                "texto": "IS DEFINITELY DOOMED.",
+                "traducao": "Está definitivamente condenado."
+            }
+        ]
+    },
+    {
+        "pagina": 13,
+        "arquivo": "13.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    103,
+                    630,
+                    694,
+                    839
+                ],
+                "texto": "BEFORE THINGS GET ANY MORE DANGEROUS",
+                "traducao": "Antes que as coisas se tornem mais perigosas"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    113,
+                    1710,
+                    705,
+                    1931
+                ],
+                "texto": "I NEED TO TAKE PRECAUTIONS TO..",
+                "traducao": "Eu preciso tomar precauções para..."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    140,
+                    4007,
+                    672,
+                    4297
+                ],
+                "texto": "IF STRANGE RUMORS START SPREADING BECAUSE OF ME, WHAT WILL YOU DO?",
+                "traducao": "Se começarem a se espalhar rumores estranhos por causa de mim, o que você vai fazer?"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    177,
+                    2608,
+                    652,
+                    2784
+                ],
+                "texto": "THE MORE YOU RESIST, THE WORSE IT'LL BE FOR YOU.",
+                "traducao": "Quanto mais você resistir, pior ficará para você."
+            }
+        ]
+    },
+    {
+        "pagina": 14,
+        "arquivo": "14.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    183,
+                    1090,
+                    626,
+                    1295
+                ],
+                "texto": "WILL IT BE OKAY?",
+                "traducao": "Vai ficar tudo bem?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    164,
+                    1922,
+                    647,
+                    2151
+                ],
+                "texto": "ARE YOU SURE YOU CAN HANDLE IT?",
+                "traducao": "Tem certeza que você consegue lidar com isso?"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    136,
+                    2761,
+                    680,
+                    2943
+                ],
+                "texto": "YEAH, I'M FINE WITH IT.",
+                "traducao": "É, estou tudo bem com isso."
+            }
+        ]
+    },
+    {
+        "pagina": 15,
+        "arquivo": "15.jpg",
+        "largura": 800,
+        "altura": 4075,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    55,
+                    1317,
+                    400,
+                    1462
+                ],
+                "texto": "UM, I THINK YOU MISUNDERSTOOD SOMETHING.",
+                "traducao": "Um, eu acho que você entendeu errado."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    467,
+                    1488,
+                    749,
+                    1636
+                ],
+                "texto": "BY \"STRANGE RUMORS,\" I MEAN...",
+                "traducao": "Por \"estranhas coincidências\", eu quero dizer..."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    411,
+                    197,
+                    673,
+                    312
+                ],
+                "texto": "• • • • • • •",
+                "traducao": "• • • • • • •"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    220,
+                    3119,
+                    621,
+                    3343
+                ],
+                "texto": "RUMORS THAT WE'RE DATING?",
+                "traducao": "Rumores de que estamos namorando?"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    246,
+                    2450,
+                    607,
+                    2615
+                ],
+                "texto": "RUMORS THAT W-WE'RE D-D-DATING...",
+                "traducao": "Rumores de que nós dois estávamos..."
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    161,
+                    4007,
+                    285,
+                    4047
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            }
+        ]
+    },
+    {
+        "pagina": 16,
+        "arquivo": "16.jpg",
+        "largura": 800,
+        "altura": 4076,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    76,
+                    1765,
+                    516,
+                    1960
+                ],
+                "texto": "WHO CARES WHAT OTHER PEOPLE SAY? RUMORS ARE JUST RUMORS.",
+                "traducao": "Ninguém se importa com o que as outras pessoas dizem. Rumores são apenas rumores."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    388,
+                    2109,
+                    727,
+                    2235
+                ],
+                "texto": "I DON'T MIND THAT STUFFN",
+                "traducao": "Não me importo com isso."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    230,
+                    484,
+                    596,
+                    636
+                ],
+                "texto": "IT'S OKAY, IT'S OKAYN",
+                "traducao": "Tudo bem, tudo bem."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    219,
+                    2944,
+                    581,
+                    3048
+                ],
+                "texto": "BUT WHY?",
+                "traducao": "Mas por quê?"
+            }
+        ]
+    },
+    {
+        "pagina": 17,
+        "arquivo": "17.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    115,
+                    116,
+                    709,
+                    349
+                ],
+                "texto": "DO YOU HATE THE IDEA OF DATING ME?",
+                "traducao": "Você odeia a ideia de sair comigo?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    219,
+                    2958,
+                    617,
+                    3111
+                ],
+                "texto": "UGH..!!",
+                "traducao": "Ugh...!!"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    127,
+                    4334,
+                    674,
+                    4499
+                ],
+                "texto": "IF I WERE AN ORDINARY PERSON",
+                "traducao": "Se eu fosse uma pessoa comum"
+            }
+        ]
+    },
+    {
+        "pagina": 18,
+        "arquivo": "18.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    110,
+                    2150,
+                    692,
+                    2434
+                ],
+                "texto": "YEO JIWOO, I KNOW EXACTLY WHAT YOU'RE UP TO.",
+                "traducao": "Yo Jiwoo, eu sei exatamente o que você está fazendo."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    154,
+                    308,
+                    656,
+                    538
+                ],
+                "texto": "THIS WOULD HAVE ENDED ALREADY.",
+                "traducao": "Isto já teria acabado."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    89,
+                    926,
+                    727,
+                    1078
+                ],
+                "texto": "BUT I'M DIFFERENT.",
+                "traducao": "Mas eu sou diferente."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    1,
+                    1195,
+                    254,
+                    1356
+                ],
+                "texto": "T",
+                "traducao": "T"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    89,
+                    4003,
+                    711,
+                    4236
+                ],
+                "texto": "I WAS THE ACADEMY'S OVERALL TOP SCORER, AND YEO JIWOO CAME IN SECOND.",
+                "traducao": "Eu fui o melhor pontuador geral da academia, e Yeo Jiwoo veio em segundo lugar."
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    129,
+                    2924,
+                    642,
+                    3146
+                ],
+                "texto": "THE MOCK EXAM WE TOOK IN APRIL.",
+                "traducao": "A prova simulada que fizemos em abril."
+            },
+            {
+                "caixa": 7,
+                "bbox": [
+                    617,
+                    3223,
+                    783,
+                    3281
+                ],
+                "texto": "GA",
+                "traducao": "GA"
+            }
+        ]
+    },
+    {
+        "pagina": 19,
+        "arquivo": "19.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    111,
+                    69,
+                    697,
+                    299
+                ],
+                "texto": "HER PLAN IS TO DISTRACT ME AND KNOCK ME DOWN AS HER COMPETITOR.",
+                "traducao": "Seu plano é me distrair e derrubar para me eliminar como sua concorrente."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    305,
+                    456,
+                    553,
+                    545
+                ],
+                "texto": "SO? WHAT DO YOU THINK?",
+                "traducao": "Mas? O que você acha?"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    505,
+                    1103,
+                    771,
+                    1183
+                ],
+                "texto": "I'M ASKING WHAT YOU THINK.",
+                "traducao": "Estou perguntando o que você acha."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    140,
+                    1355,
+                    661,
+                    1596
+                ],
+                "texto": "THIS WOMAN IS TERRIFYING..!",
+                "traducao": "Esta mulher é aterrorizante..!"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    178,
+                    2128,
+                    611,
+                    2268
+                ],
+                "texto": "REMEMBER,",
+                "traducao": "Lembre-se,"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    88,
+                    2558,
+                    708,
+                    2764
+                ],
+                "texto": "THIS GIRL IS AIMING TO RUIN MY RETAKE LIFE.",
+                "traducao": "Essa garota está tentando arruinar minha vida."
+            },
+            {
+                "caixa": 7,
+                "bbox": [
+                    0,
+                    4379,
+                    177,
+                    4424
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            }
+        ]
+    },
+    {
+        "pagina": 20,
+        "arquivo": "20.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    244,
+                    1874,
+                    594,
+                    1982
+                ],
+                "texto": "HO-YAH?",
+                "traducao": "HO-YAH?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    169,
+                    56,
+                    641,
+                    482
+                ],
+                "texto": "SHE'S A WITCH.",
+                "traducao": "Ela é uma bruxa."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    363,
+                    2927,
+                    748,
+                    3063
+                ],
+                "texto": "HEY, ARE YOU LISTENINGN?",
+                "traducao": "Ei, você está ouvindo?"
+            }
+        ]
+    },
+    {
+        "pagina": 21,
+        "arquivo": "21.jpg",
+        "largura": 800,
+        "altura": 3760,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    437,
+                    1887,
+                    717,
+                    2027
+                ],
+                "texto": "IT LOOKS BROKEN.",
+                "traducao": "Parece quebrado."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    76,
+                    1682,
+                    391,
+                    1804
+                ],
+                "texto": "WHAT'S WITH THIS WATCH?",
+                "traducao": "Qual é da relógio?"
+            }
+        ]
+    },
+    {
+        "pagina": 22,
+        "arquivo": "22.jpg",
+        "largura": 800,
+        "altura": 3760,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    178,
+                    167,
+                    627,
+                    420
+                ],
+                "texto": "WHY DO YOU EVEN WEAR SOMETHING LIKE THIS?",
+                "traducao": "Por que você está usando uma coisa dessas?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    305,
+                    1657,
+                    568,
+                    1816
+                ],
+                "texto": "HEY.",
+                "traducao": "E aí."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    612,
+                    1914,
+                    785,
+                    1976
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    174,
+                    3114,
+                    659,
+                    3373
+                ],
+                "texto": "DON'T PUSH IT TOO FAR, OKAY?",
+                "traducao": "Não force a barra, ok?"
+            }
+        ]
+    },
+    {
+        "pagina": 23,
+        "arquivo": "23.jpg",
+        "largura": 800,
+        "altura": 4335,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    139,
+                    1814,
+                    681,
+                    2048
+                ],
+                "texto": "MAYBE YOU DON'T CARE ABOUT GETTING KICKED OUT, BUT I DO.",
+                "traducao": "Talvez você não se importe em ser expulso, mas eu sim."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    107,
+                    95,
+                    711,
+                    380
+                ],
+                "texto": "YOU KNOW HOW STRICT OUR ACADEMY IS ABOUT RELATIONSHIPS BETWEEN BOYS AND GIRLS.",
+                "traducao": "Você sabe como nossa academia é rígida em relação aos relacionamentos entre meninos e meninas."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    120,
+                    1242,
+                    707,
+                    1437
+                ],
+                "texto": "IF YOU KEEP THIS UP, WE COULD BOTH GET EXPELLED.",
+                "traducao": "Se você continuar assim, nós dois podemos ser expulsos."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    181,
+                    2987,
+                    636,
+                    3229
+                ],
+                "texto": "STOP WASTING TIME AND FOCUS ON STUDYING, WILL YOU?",
+                "traducao": "Pare de perder tempo e foque nos estudos, vai?"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    228,
+                    3886,
+                    559,
+                    4035
+                ],
+                "texto": "YEAH...",
+                "traducao": "É..."
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    621,
+                    4062,
+                    759,
+                    4114
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            },
+            {
+                "caixa": 7,
+                "bbox": [
+                    754,
+                    4076,
+                    796,
+                    4101
+                ],
+                "texto": "",
+                "traducao": ""
+            }
+        ]
+    },
+    {
+        "pagina": 24,
+        "arquivo": "24.jpg",
+        "largura": 800,
+        "altura": 4336,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    87,
+                    348,
+                    722,
+                    544
+                ],
+                "texto": "I DON'T HAVE TIME TO WASTE ON STUFF LIKE THIS.",
+                "traducao": "Não tenho tempo a perder com coisas como essa."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    129,
+                    1086,
+                    676,
+                    1235
+                ],
+                "texto": "NO MATTER WHAT,",
+                "traducao": "Não importa o que."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    134,
+                    1894,
+                    684,
+                    2125
+                ],
+                "texto": "I HAVE TO GET INTO MEDICAL SCHOOL.",
+                "traducao": "Eu preciso entrar na faculdade de medicina."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    4,
+                    4204,
+                    800,
+                    4318
+                ],
+                "texto": "UNIVERSITY ADMISSIONS FINAL RESULTS",
+                "traducao": "RESULTADOS FINAIS DE ADMISSÃO NA UNIVERSIDADE"
+            }
+        ]
+    },
+    {
+        "pagina": 25,
+        "arquivo": "25.jpg",
+        "largura": 800,
+        "altura": 4410,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    131,
+                    1624,
+                    703,
+                    1774
+                ],
+                "texto": "REJECTED..?",
+                "traducao": "Rejeitado...?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    147,
+                    5,
+                    655,
+                    306
+                ],
+                "texto": "APPLICATION REJECTED THANK YOU FOR YOUR SUPPORT NN",
+                "traducao": "APLICAÇÃO REJEITADA OBRIGADO(A) PELA SUA APOIO NN"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    160,
+                    3049,
+                    662,
+                    3238
+                ],
+                "texto": "ME..???",
+                "traducao": "Me…???"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    0,
+                    3681,
+                    179,
+                    3743
+                ],
+                "texto": "",
+                "traducao": ""
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    450,
+                    3911,
+                    750,
+                    4277
+                ],
+                "texto": "RD",
+                "traducao": "RD"
+            }
+        ]
+    },
+    {
+        "pagina": 26,
+        "arquivo": "26.jpg",
+        "largura": 800,
+        "altura": 4410,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    121,
+                    1395,
+                    690,
+                    1601
+                ],
+                "texto": "GETTING INTO MEDICAL SCHOOL IS THAT HARD, HUH?",
+                "traducao": "É tão difícil entrar na faculdade de medicina, não é?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    142,
+                    603,
+                    680,
+                    738
+                ],
+                "texto": "SO, JUHO...",
+                "traducao": "Então, Juho..."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    181,
+                    3175,
+                    611,
+                    3354
+                ],
+                "texto": "YOU'RE THE ONLY ONE",
+                "traducao": "Você é a única."
+            }
+        ]
+    },
+    {
+        "pagina": 27,
+        "arquivo": "27.jpg",
+        "largura": 800,
+        "altura": 4127,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    116,
+                    2077,
+                    700,
+                    2291
+                ],
+                "texto": "TO HAVE FAILED AT IT.",
+                "traducao": "Não deu em mim."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    240,
+                    115,
+                    566,
+                    334
+                ],
+                "texto": "IN OUR FAMILY",
+                "traducao": "NA NOSSA FAMÍLIA"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    141,
+                    3014,
+                    682,
+                    3141
+                ],
+                "texto": "F-FATHER..!",
+                "traducao": "Pai..!"
+            }
+        ]
+    },
+    {
+        "pagina": 28,
+        "arquivo": "28.jpg",
+        "largura": 800,
+        "altura": 4129,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    146,
+                    31,
+                    682,
+                    231
+                ],
+                "texto": "PLEASE, JUST GIVE ME ONE MORE CHANCE..",
+                "traducao": "Por favor, apenas me dê mais uma chance..."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    180,
+                    2371,
+                    614,
+                    2524
+                ],
+                "texto": "JUST",
+                "traducao": "É só."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    138,
+                    3712,
+                    666,
+                    3883
+                ],
+                "texto": "QUIT STUDYING ALREADY.",
+                "traducao": "Pare de estudar já."
+            }
+        ]
+    },
+    {
+        "pagina": 29,
+        "arquivo": "29.jpg",
+        "largura": 800,
+        "altura": 4157,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    83,
+                    1356,
+                    704,
+                    1518
+                ],
+                "texto": "TIME FOR ME",
+                "traducao": "É hora para mim."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    315,
+                    1904,
+                    500,
+                    2095
+                ],
+                "texto": "",
+                "traducao": ""
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    0,
+                    813,
+                    183,
+                    883
+                ],
+                "texto": "",
+                "traducao": ""
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    93,
+                    2421,
+                    690,
+                    2793
+                ],
+                "texto": "STOPPED THAT DAY.",
+                "traducao": "Parou naquele dia."
+            }
+        ]
+    },
+    {
+        "pagina": 30,
+        "arquivo": "30.jpg",
+        "largura": 800,
+        "altura": 4159,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    105,
+                    1589,
+                    704,
+                    1763
+                ],
+                "texto": "THIS IS THE LAST CHANCE I BARELY MANAGED TO GET...",
+                "traducao": "Esta é a última chance que mal consegui conseguir..."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    114,
+                    3213,
+                    702,
+                    3429
+                ],
+                "texto": "I HAVE TO GET INTO MEDICAL SCHOOL.",
+                "traducao": "Eu preciso entrar na faculdade de medicina."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    185,
+                    2847,
+                    634,
+                    3038
+                ],
+                "texto": "TO RETURN TO MY PREVIOUS LIFE,",
+                "traducao": "Para voltar à minha vida anterior,"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    91,
+                    3931,
+                    730,
+                    4135
+                ],
+                "texto": "EVERY SECOND COUNTS IN THIS SITUATION.",
+                "traducao": "Cada segundo conta nesta situação."
+            }
+        ]
+    },
+    {
+        "pagina": 31,
+        "arquivo": "31.jpg",
+        "largura": 800,
+        "altura": 4075,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    78,
+                    990,
+                    680,
+                    1207
+                ],
+                "texto": "THERE'S NO ROOM FOR WASTING TIME SOCIALIZING WITH OTHERS.",
+                "traducao": "Não há espaço para perder tempo socializando com outras pessoas."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    176,
+                    3088,
+                    629,
+                    3259
+                ],
+                "texto": "COUGH",
+                "traducao": "tosse"
+            }
+        ]
+    },
+    {
+        "pagina": 32,
+        "arquivo": "32.jpg",
+        "largura": 800,
+        "altura": 4076,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    386,
+                    1014,
+                    719,
+                    1179
+                ],
+                "texto": "WHAT THE HECK, YOU..!!",
+                "traducao": "Que merda, você…!!"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    157,
+                    1777,
+                    623,
+                    2010
+                ],
+                "texto": "YEO JIWOO, YOU BRAT..!!!",
+                "traducao": "YEO JIWOO, seu garoto(a)!!!"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    238,
+                    289,
+                    464,
+                    417
+                ],
+                "texto": "Cough!",
+                "traducao": "Tosse!"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    108,
+                    0,
+                    568,
+                    200
+                ],
+                "texto": "AA",
+                "traducao": "AA"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    323,
+                    3258,
+                    724,
+                    3420
+                ],
+                "texto": "WHAT ARE YOU DOING RIGHT NOW ? ••••",
+                "traducao": "O que você está fazendo agora?"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    21,
+                    3581,
+                    778,
+                    3789
+                ],
+                "texto": "SO YOU'RE FINALLY SHOWING YOUR TRUE COLORS!!!",
+                "traducao": "Agora você está finalmente mostrando suas verdadeiras cores!!!"
+            }
+        ]
+    },
+    {
+        "pagina": 33,
+        "arquivo": "33.jpg",
+        "largura": 800,
+        "altura": 4130,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    239,
+                    2668,
+                    620,
+                    2858
+                ],
+                "texto": "III • • • • • • •",
+                "traducao": "III • • • • • • •"
+            }
+        ]
+    },
+    {
+        "pagina": 34,
+        "arquivo": "34.jpg",
+        "largura": 800,
+        "altura": 4130,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    126,
+                    1732,
+                    683,
+                    1990
+                ],
+                "texto": "WHAT WERE / YOU THINKING, JUST WALKING AROUND LIKE THAT?",
+                "traducao": "O que você estava pensando, andando assim, como se nada?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    137,
+                    3363,
+                    681,
+                    3667
+                ],
+                "texto": "YOU ALMOST GOT KILLED JUST NOW!",
+                "traducao": "Você quase foi morto agora mesmo!"
+            }
+        ]
+    },
+    {
+        "pagina": 35,
+        "arquivo": "35.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    360,
+                    1417,
+                    674,
+                    1501
+                ],
+                "texto": "S-SORRY...",
+                "traducao": "Desculpe..."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    190,
+                    1294,
+                    310,
+                    1378
+                ],
+                "texto": "2 So J",
+                "traducao": "2 So J"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    158,
+                    81,
+                    477,
+                    274
+                ],
+                "texto": "? ! • • • •",
+                "traducao": "? ! • • • •"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    233,
+                    4015,
+                    557,
+                    4113
+                ],
+                "texto": "• • • • • •",
+                "traducao": "• • • • • •"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    446,
+                    2236,
+                    697,
+                    2421
+                ],
+                "texto": "6-2 DS",
+                "traducao": "6-2 DS"
+            }
+        ]
+    },
+    {
+        "pagina": 36,
+        "arquivo": "36.jpg",
+        "largura": 800,
+        "altura": 4500,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    153,
+                    1348,
+                    629,
+                    1522
+                ],
+                "texto": "...SO, YOU'RE SAYING THAT",
+                "traducao": "...Então, você está dizendo que"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    164,
+                    4039,
+                    659,
+                    4270
+                ],
+                "texto": "AND YOU'RE WORRIED ABOUT GETTING EXPELLED, RIGHT?",
+                "traducao": "E você está preocupado em ser expulso, certo?"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    148,
+                    2981,
+                    647,
+                    3116
+                ],
+                "texto": "I'M A DISTRACTION TO YOUR STUDIES,",
+                "traducao": "Eu sou uma distração para seus estudos."
+            }
+        ]
+    },
+    {
+        "pagina": 37,
+        "arquivo": "37.jpg",
+        "largura": 800,
+        "altura": 4340,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    396,
+                    1169,
+                    611,
+                    1269
+                ],
+                "texto": "YES...",
+                "traducao": "Sim..."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    190,
+                    362,
+                    395,
+                    426
+                ],
+                "texto": "•  • • •  •",
+                "traducao": "• • • • •"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    247,
+                    3478,
+                    519,
+                    3618
+                ],
+                "texto": "4A7",
+                "traducao": "4A7"
+            }
+        ]
+    },
+    {
+        "pagina": 38,
+        "arquivo": "38.jpg",
+        "largura": 800,
+        "altura": 4340,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    178,
+                    1226,
+                    653,
+                    1375
+                ],
+                "texto": "OH MY~ THAT'S NOTHING.",
+                "traducao": "Nossa... isso não quer dizer nada."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    149,
+                    2525,
+                    682,
+                    2780
+                ],
+                "texto": "HONESTLY, I CAN SOLVE THAT PROBLEM FOR YOU IN ONE GO.",
+                "traducao": "Sinceramente, eu posso resolver esse problema para você de uma vez."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    409,
+                    3102,
+                    621,
+                    3180
+                ],
+                "texto": "...HUH?",
+                "traducao": "...Hã?"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    49,
+                    3652,
+                    174,
+                    3695
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            }
+        ]
+    },
+    {
+        "pagina": 39,
+        "arquivo": "39.jpg",
+        "largura": 800,
+        "altura": 4420,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    163,
+                    863,
+                    618,
+                    1040
+                ],
+                "texto": "YOU RANKED FIRST,",
+                "traducao": "Você chegou em primeiro lugar,"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    175,
+                    95,
+                    625,
+                    288
+                ],
+                "texto": "DURING THE APRIL MOCK EXAM,",
+                "traducao": "Durante a prova simulada de abril,"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    150,
+                    2232,
+                    687,
+                    2482
+                ],
+                "texto": "AND I CAME SECOND, RIGHT?",
+                "traducao": "E eu fiquei em segundo lugar, certo?"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    107,
+                    2865,
+                    708,
+                    3134
+                ],
+                "texto": "IF, IN ANY FUTURE MOCK EXAM, I RANK HIGHER THAN YOU EVEN ONCE,",
+                "traducao": "Se, em qualquer prova simulada futura, eu me classificar melhor que você, mesmo que seja uma vez,"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    104,
+                    4276,
+                    690,
+                    4420
+                ],
+                "texto": "THEN YOU'LL HAVE TO DATE ME.",
+                "traducao": "Então você vai ter que sair comigo."
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    167,
+                    1929,
+                    325,
+                    2045
+                ],
+                "texto": "V",
+                "traducao": "V"
+            }
+        ]
+    },
+    {
+        "pagina": 40,
+        "arquivo": "40.jpg",
+        "largura": 800,
+        "altura": 4420,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    152,
+                    1906,
+                    674,
+                    2165
+                ],
+                "texto": ")IF WE DATE, WE'LL GET EXPELLED FROM THE ACADEMY!",
+                "traducao": "Se a gente sair juntinhos, vamos ser expulsos da academia!"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    108,
+                    644,
+                    694,
+                    855
+                ],
+                "texto": "WH-WHAT?! WHAT KIND OF...?!",
+                "traducao": "O quê? Que tipo de...?"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    120,
+                    3827,
+                    684,
+                    4067
+                ],
+                "texto": "THEN TO AVOID THAT, YOU'LL HAVE TO STUDY EVEN HARDER TO BEAT ME.",
+                "traducao": "Então, para evitar isso, você vai ter que estudar ainda mais para me superar."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    454,
+                    2853,
+                    772,
+                    2986
+                ],
+                "texto": "ISN'T THAT WHAT YOU'RE WORRIED ABOUT?",
+                "traducao": "Você não está preocupado com isso, certo?"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    35,
+                    2615,
+                    477,
+                    2762
+                ],
+                "texto": "WHY WOULD I AGREE TO SOMETHING LIKE THAT...?!",
+                "traducao": "Por que eu concordaria com uma coisa dessas...?"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    1,
+                    2858,
+                    129,
+                    2902
+                ],
+                "texto": "EZMANGA",
+                "traducao": "EZMANGA"
+            }
+        ]
+    },
+    {
+        "pagina": 41,
+        "arquivo": "41.jpg",
+        "largura": 800,
+        "altura": 3852,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    128,
+                    1655,
+                    693,
+                    1939
+                ],
+                "texto": "I'M NOT A DISTRACTION, I'M ACTUALLY HELPING YOU STUDY, DON'T YOU THINK?",
+                "traducao": "Eu não sou uma distração, na verdade estou te ajudando a estudar, não acha?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    140,
+                    92,
+                    663,
+                    307
+                ],
+                "texto": "THANKS TO ME, YOU'LL HAVE A SOLID MOTIVATION TO STUDY HARDER.",
+                "traducao": "Graças a mim, você terá uma motivação sólida para estudar mais."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    22,
+                    3526,
+                    403,
+                    3708
+                ],
+                "texto": "YOU'RE ACTING LIKE THE OUTCOME DOESN'T AFFECT YOU AT ALL,",
+                "traducao": "Você está agindo como se o resultado não te afetasse de forma alguma."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    97,
+                    2739,
+                    327,
+                    2861
+                ],
+                "texto": "ARE YOU STUPID?",
+                "traducao": "Você é burro?"
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    344,
+                    3749,
+                    769,
+                    3851
+                ],
+                "texto": "BUT YOU'LL ALSO GET EXPELLED FROM",
+                "traducao": "MAS VOCÊ TAMBÉM SERÁ EXPULSADO DE"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    27,
+                    2456,
+                    772,
+                    2667
+                ],
+                "texto": "WHAT KIND OF RIDICULOUS LOGIC IS THIS..?!",
+                "traducao": "Que lógica absurda é essa?!"
+            }
+        ]
+    },
+    {
+        "pagina": 42,
+        "arquivo": "42.jpg",
+        "largura": 800,
+        "altura": 3853,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    158,
+                    474,
+                    671,
+                    668
+                ],
+                "texto": "LIKE I SAID, I DON'T CARE IF I GET KICKED OUT.",
+                "traducao": "Como eu disse, não me importo se eu for expulso."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    192,
+                    1872,
+                    609,
+                    2012
+                ],
+                "texto": "BUT,",
+                "traducao": "Mas,"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    388,
+                    0,
+                    727,
+                    47
+                ],
+                "texto": "THE ACADEMY!",
+                "traducao": "A Academia!"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    155,
+                    3025,
+                    678,
+                    3253
+                ],
+                "texto": "YOU SEEM TO CARE A LOT, DON'T YOU?",
+                "traducao": "Parece que você se importa bastante, não é?"
+            }
+        ]
+    },
+    {
+        "pagina": 43,
+        "arquivo": "43.jpg",
+        "largura": 800,
+        "altura": 4417,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    225,
+                    115,
+                    590,
+                    244
+                ],
+                "texto": "THIS..!!",
+                "traducao": "Isto...!!"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    152,
+                    1721,
+                    423,
+                    1887
+                ],
+                "texto": "!!! •• • • •",
+                "traducao": "!!! •• • • •"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    143,
+                    2965,
+                    664,
+                    3105
+                ],
+                "texto": "IT'S STARTING.",
+                "traducao": "Está começando."
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    103,
+                    3660,
+                    718,
+                    4006
+                ],
+                "texto": "YEO JIWOO'S \"MAGIC.\"",
+                "traducao": "A MÁGICA DE YEO JIWOO."
+            }
+        ]
+    },
+    {
+        "pagina": 44,
+        "arquivo": "44.jpg",
+        "largura": 800,
+        "altura": 4419,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    122,
+                    1904,
+                    677,
+                    2008
+                ],
+                "texto": "WHAT'S WRONG?",
+                "traducao": "O que houve?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    186,
+                    3330,
+                    633,
+                    3557
+                ],
+                "texto": "ARE YOU SCARED?",
+                "traducao": "VOCÊ TEM MEDO?"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    219,
+                    4149,
+                    577,
+                    4366
+                ],
+                "texto": "NO...",
+                "traducao": "Não..."
+            }
+        ]
+    },
+    {
+        "pagina": 45,
+        "arquivo": "45.jpg",
+        "largura": 800,
+        "altura": 3897,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    85,
+                    1646,
+                    716,
+                    1820
+                ],
+                "texto": "I CAN'T MOVE...",
+                "traducao": "Eu não consigo me mover..."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    73,
+                    3526,
+                    283,
+                    3606
+                ],
+                "texto": "UGH...",
+                "traducao": "Ugh..."
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    101,
+                    2433,
+                    715,
+                    2692
+                ],
+                "texto": "I'M COMPLETELY TRAPPED..!",
+                "traducao": "Estou completamente preso…!"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    624,
+                    3838,
+                    754,
+                    3881
+                ],
+                "texto": "EZMANGA",
+                "traducao": "Ezmanga"
+            }
+        ]
+    },
+    {
+        "pagina": 46,
+        "arquivo": "46.jpg",
+        "largura": 800,
+        "altura": 3899,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    0,
+                    3161,
+                    178,
+                    3223
+                ],
+                "texto": "IANGA",
+                "traducao": "Iângua"
+            }
+        ]
+    },
+    {
+        "pagina": 47,
+        "arquivo": "47.jpg",
+        "largura": 800,
+        "altura": 3872,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    198,
+                    1968,
+                    622,
+                    2224
+                ],
+                "texto": "I'M NOT SCARED AT ALL.",
+                "traducao": "Eu não tenho medo nenhum."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    171,
+                    1182,
+                    651,
+                    1380
+                ],
+                "texto": "SCARED OF YOU??",
+                "traducao": "Assustado(a) comigo??"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    209,
+                    133,
+                    602,
+                    251
+                ],
+                "texto": "SCARED?",
+                "traducao": "Assustado?"
+            }
+        ]
+    },
+    {
+        "pagina": 48,
+        "arquivo": "48.jpg",
+        "largura": 800,
+        "altura": 3873,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    153,
+                    30,
+                    675,
+                    270
+                ],
+                "texto": "IF YOU'RE SO CONFIDENT, BRING IT ON.",
+                "traducao": "Se você é tão confiante, venha então."
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    247,
+                    935,
+                    558,
+                    1038
+                ],
+                "texto": "ALRIGHT,",
+                "traducao": "OK,"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    132,
+                    2898,
+                    690,
+                    3056
+                ],
+                "texto": "I'LL BE COUNTING ON YOUN",
+                "traducao": "Vou contar com você."
+            }
+        ]
+    },
+    {
+        "pagina": 49,
+        "arquivo": "49.webp",
+        "largura": 800,
+        "altura": 3170,
+        "blocos": [
+            {
+                "caixa": 1,
+                "bbox": [
+                    209,
+                    413,
+                    601,
+                    617
+                ],
+                "texto": "SO NOW IT'S OKAY FOR ME TO STICK AROUND, RIGHT?",
+                "traducao": "Agora está tudo bem para eu ficar por aqui, certo?"
+            },
+            {
+                "caixa": 2,
+                "bbox": [
+                    395,
+                    1561,
+                    739,
+                    1709
+                ],
+                "texto": "DON'T STICK SO CLOSE TO ME...!",
+                "traducao": "Não se aproxime tanto de mim...!"
+            },
+            {
+                "caixa": 3,
+                "bbox": [
+                    130,
+                    1426,
+                    381,
+                    1498
+                ],
+                "texto": "HUH? NO!",
+                "traducao": "Hah? Não!"
+            },
+            {
+                "caixa": 4,
+                "bbox": [
+                    112,
+                    2667,
+                    681,
+                    2850
+                ],
+                "texto": "You'll find it available up to chapter 15 exclusively on our website",
+                "traducao": "Você encontrará disponível até o capítulo 15 exclusivamente em nosso site."
+            },
+            {
+                "caixa": 5,
+                "bbox": [
+                    214,
+                    2875,
+                    578,
+                    2936
+                ],
+                "texto": "WWW.EZMANGA.ORG",
+                "traducao": "WWW.EZMANGA.ORG"
+            },
+            {
+                "caixa": 6,
+                "bbox": [
+                    117,
+                    2451,
+                    316,
+                    2519
+                ],
+                "texto": "m",
+                "traducao": "m"
+            }
+        ]
+    }
+]
