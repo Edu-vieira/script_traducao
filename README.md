@@ -3,7 +3,7 @@
 Script para automatizar a tradução de capítulos de mangás/manhwas em formato `.cbz`, utilizando o **Comic Translate** para detecção, OCR, remoção e renderização do texto, e o **Ollama** para realizar a tradução localmente.
 
 > **Importante:** este script não funciona sozinho. Ele depende do repositório **Comic Translate** para realizar as etapas de processamento das páginas. O script é apenas uma automação que depende do Comic Translate.
-
+>
 > Este projeto é independente, para fins de aprendizado e ajuda à comunidade de leitura, portanto não possui **`NENHUM`** vínculo com os autores do **`Comic Translate`**.
 
 ---
