@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
-MODEL = "gemma3:270m"
+MODEL = "guinogueira/ffxiv-pt-hy-mt2:7b-q5_K_M"
 
 
 # ============================================================
