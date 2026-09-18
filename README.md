@@ -346,12 +346,6 @@ Obras\
     └── Paginas_Traduzidas\
 ```
 
-Depois disso, execute:
-
-```powershell
-& "C:\Users\SEU_USUARIO\Documents\comic-translate-main\.venv\Scripts\python.exe" ".\automatizar.py"
-```
-
 O script irá processar os capítulos da pasta `Originais` automaticamente.
 
 ---
