@@ -307,41 +307,7 @@ Ao terminar, a `.venv` estará pronta para executar o projeto.
 
 ---
 
-## 6. Executar o script
-
-O terminal deve ser aberto dentro da pasta da obra que deseja traduzir.
-
-Por exemplo:
-
-```text
-C:\Users\SEU_USUARIO\Documents\Obras\Academy_of_card\
-│
-├── automatizar.py
-├── detector.py
-├── tradutor.py
-├── main.py
-├── Originais\
-├── Traduzidos\
-└── Paginas_Traduzidas\
-```
-
-Abra o terminal nessa pasta.
-
-O script deve ser executado utilizando o Python localizado dentro da `.venv` do Comic Translate.
-
-Exemplo:
-
-```powershell
-& "C:\Users\SEU_USUARIO\Documents\comic-translate-main\.venv\Scripts\python.exe" ".\automatizar.py"
-```
-
-**Altere o caminho de acordo com o local onde o Comic Translate foi instalado.**
-
-Não é necessário alterar o caminho de `automatizar.py` quando o terminal já estiver aberto dentro da pasta da obra.
-
----
-
-## 7. Colocar os capítulos na pasta `Originais`
+## 6. Colocar os capítulos na pasta `Originais`
 
 O script trabalha com capítulos no formato:
 
@@ -387,6 +353,40 @@ Depois disso, execute:
 ```
 
 O script irá processar os capítulos da pasta `Originais` automaticamente.
+
+---
+
+## 7. Executar o script
+
+O terminal deve ser aberto dentro da pasta da obra que deseja traduzir.
+
+Por exemplo:
+
+```text
+C:\Users\SEU_USUARIO\Documents\Obras\Academy_of_card\
+│
+├── automatizar.py
+├── detector.py
+├── tradutor.py
+├── main.py
+├── Originais\
+├── Traduzidos\
+└── Paginas_Traduzidas\
+```
+
+Abra o terminal nessa pasta.
+
+O script deve ser executado utilizando o Python localizado dentro da `.venv` do Comic Translate.
+
+Exemplo:
+
+```powershell
+& "C:\Users\SEU_USUARIO\Documents\comic-translate-main\.venv\Scripts\python.exe" ".\automatizar.py"
+```
+
+**Altere o caminho de acordo com o local onde o Comic Translate foi instalado.**
+
+Não é necessário alterar o caminho de `automatizar.py` quando o terminal já estiver aberto dentro da pasta da obra.
 
 ---
 
