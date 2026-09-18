@@ -517,10 +517,11 @@ def criar_cbz(
 
 def main():
 
+    global FONT_FAMILY
+
     print("=" * 60)
     print("COMIC TRANSLATE - RENDERIZAÇÃO")
     print("=" * 60)
-
 
     # --------------------------------------------------------
     # QT
@@ -531,58 +532,73 @@ def main():
     if app is None:
         app = QtWidgets.QApplication(sys.argv)
 
+    # --------------------------------------------------------
+    # CARREGAR FONTE
+    # --------------------------------------------------------
+
+    FONT_PATH = (
+        r"C:\Users\EDUARDO\Documents\comic-translate-main"
+        r"\fontes\anime_ace_bb\animeace2_reg.ttf"
+    )
+
+    font_id = QFontDatabase.addApplicationFont(
+        FONT_PATH
+    )
+
+    if font_id == -1:
+        raise RuntimeError(
+            "Não foi possível carregar a fonte Anime Ace BB."
+        )
+
+    FONT_FAMILY = (
+        QFontDatabase.applicationFontFamilies(
+            font_id
+        )[0]
+    )
+
+    print(
+        f"Fonte carregada: {FONT_FAMILY}"
+    )
 
     # --------------------------------------------------------
     # LER JSON
     # --------------------------------------------------------
 
     print()
-
     print(
         "Lendo resultado da tradução..."
     )
 
-
     try:
-
         with open(
             INPUT_JSON,
             "r",
             encoding="utf-8",
         ) as arquivo:
-
             resultados = json.load(
                 arquivo
             )
-
     except Exception as e:
-
         print(
             f"ERRO ao ler JSON: {e}"
         )
-
         return
-
 
     print(
         f"Páginas encontradas: "
         f"{len(resultados)}"
     )
 
-
     # --------------------------------------------------------
     # PREPARAR CBZ
     # --------------------------------------------------------
 
     print()
-
     print("=" * 60)
     print("PREPARANDO CBZ")
     print("=" * 60)
 
-
     file_handler = FileHandler()
-
 
     image_files = (
         file_handler.prepare_files(
@@ -590,36 +606,29 @@ def main():
         )
     )
 
-
     print(
         f"Páginas extraídas: "
         f"{len(image_files)}"
     )
-
 
     # --------------------------------------------------------
     # INPAINTER
     # --------------------------------------------------------
 
     print()
-
     print("=" * 60)
     print("INICIALIZANDO INPAINTER")
     print("=" * 60)
 
-
     fake_main = FakeMainPage()
-
 
     inpainting_handler = InpaintingHandler(
         fake_main
     )
 
-
     config = get_config(
         fake_main.settings_page
     )
-
 
     print(
         f"Inpainter: {INPAINTER}"
@@ -633,7 +642,6 @@ def main():
         f"HD Strategy: {HD_STRATEGY}"
     )
 
-
     # --------------------------------------------------------
     # OUTPUT
     # --------------------------------------------------------
@@ -642,7 +650,6 @@ def main():
         OUTPUT_DIR,
         exist_ok=True
     )
-
 
     # --------------------------------------------------------
     # PÁGINAS
@@ -657,9 +664,7 @@ def main():
             pagina_index + 1
         )
 
-
         print()
-
         print("=" * 60)
 
         print(
@@ -669,7 +674,6 @@ def main():
         )
 
         print("=" * 60)
-
 
         # ----------------------------------------------------
         # ENCONTRAR IMAGEM
@@ -686,11 +690,9 @@ def main():
 
             continue
 
-
         image_file = image_files[
             pagina_index
         ]
-
 
         if not ensure_prepared_path_materialized(
             image_file
@@ -704,7 +706,6 @@ def main():
 
             continue
 
-
         # ----------------------------------------------------
         # ABRIR IMAGEM
         # ----------------------------------------------------
@@ -717,11 +718,9 @@ def main():
 
             image_pil.load()
 
-
             image = np.array(
                 image_pil.convert("RGB")
             )
-
 
         except Exception as e:
 
@@ -731,13 +730,11 @@ def main():
 
             continue
 
-
         print(
             f"Imagem: "
             f"{image.shape[1]}x"
             f"{image.shape[0]}"
         )
-
 
         # ----------------------------------------------------
         # RECONSTRUIR TEXTBLOCKS
@@ -748,9 +745,7 @@ def main():
             []
         )
 
-
         blk_list = []
-
 
         for bloco_json in blocos_json:
 
@@ -759,43 +754,35 @@ def main():
                 ""
             ).strip()
 
-
             traducao = bloco_json.get(
                 "traducao",
                 ""
             ).strip()
 
-
             if not texto:
                 continue
-
 
             blk = criar_textblock(
                 bloco_json
             )
 
-
             blk_list.append(
                 blk
             )
 
-
             print(
                 f"Texto: {texto!r}"
             )
-
 
             print(
                 f"Tradução: "
                 f"{traducao!r}"
             )
 
-
         print(
             f"Blocos reconstruídos: "
             f"{len(blk_list)}"
         )
-
 
         if not blk_list:
 
@@ -806,35 +793,23 @@ def main():
 
             continue
 
-
         # ----------------------------------------------------
         # FILTRAR BLOCOS PARA INPAINTING
         # ----------------------------------------------------
 
         inpaint_blk_list = [
-
             blk
-
             for blk in blk_list
-
             if (
-
                 blk.text
-
                 and blk.text.strip()
-
                 and blk.translation
-
                 and blk.translation.strip()
-
                 and is_renderable_translation(
                     blk.translation
                 )
-
             )
-
         ]
-
 
         print()
 
@@ -842,7 +817,6 @@ def main():
             "Blocos para inpainting: "
             f"{len(inpaint_blk_list)}"
         )
-
 
         # ----------------------------------------------------
         # GERAR MÁSCARA
@@ -852,18 +826,15 @@ def main():
             "Gerando máscara..."
         )
 
-
         mask = generate_mask(
             image,
             inpaint_blk_list
         )
 
-
         print(
             f"Máscara gerada: "
             f"{mask.shape}"
         )
-
 
         # ----------------------------------------------------
         # INPAINTING NATIVO
@@ -873,28 +844,19 @@ def main():
             "Executando inpainting..."
         )
 
-
         inpainted_image = (
             call_inpaint_image(
-
                 inpainting_handler,
-
                 image,
-
                 mask,
-
                 config,
-
                 blk_list=inpaint_blk_list,
-
             )
         )
-
 
         print(
             "Inpainting concluído."
         )
-
 
         # ----------------------------------------------------
         # RENDERIZAÇÃO DOS TEXTOS
@@ -904,25 +866,18 @@ def main():
             "Preparando textos..."
         )
 
-
         text_items_state = (
             criar_text_items(
-
                 blk_list,
-
                 image,
-
                 inpainted_image,
-
             )
         )
-
 
         print(
             f"Text items: "
             f"{len(text_items_state)}"
         )
-
 
         # ----------------------------------------------------
         # RENDER NATIVO
@@ -932,11 +887,9 @@ def main():
             "Renderizando página..."
         )
 
-
         renderer = ImageSaveRenderer(
             inpainted_image
         )
-
 
         renderer.add_state_to_image(
             {
@@ -945,11 +898,9 @@ def main():
             }
         )
 
-
         final_image = (
             renderer.render_to_image()
         )
-
 
         # ----------------------------------------------------
         # SALVAR
@@ -959,12 +910,10 @@ def main():
             f"{pagina_index + 1:04d}.png"
         )
 
-
         caminho_saida = os.path.join(
             OUTPUT_DIR,
             nome_saida
         )
-
 
         Image.fromarray(
             final_image
@@ -972,12 +921,10 @@ def main():
             caminho_saida
         )
 
-
         print(
             f"Página salva: "
             f"{caminho_saida}"
         )
-
 
     # --------------------------------------------------------
     # CRIAR CBZ
@@ -988,13 +935,10 @@ def main():
         OUTPUT_CBZ
     )
 
-
     print()
-
     print("=" * 60)
     print("PROCESSO CONCLUÍDO")
     print("=" * 60)
-
     print()
 
     print(
@@ -1005,19 +949,6 @@ def main():
         OUTPUT_CBZ
     )
 
-global FONT_FAMILY
-
-FONT_PATH = r"C:\Users\EDUARDO\Documents\comic-translate-main\fontes\anime_ace_bb\animeace2_reg.ttf"
-
-font_id = QFontDatabase.addApplicationFont(FONT_PATH)
-
-if font_id == -1:
-    raise RuntimeError("Não foi possível carregar a fonte Anime Ace BB.")
-
-FONT_FAMILY = QFontDatabase.applicationFontFamilies(font_id)[0]
-
-print(f"Fonte carregada: {FONT_FAMILY}")
 
 if __name__ == "__main__":
-
     main()
