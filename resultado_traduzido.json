@@ -14,7 +14,12 @@
                     2144
                 ],
                 "texto": "THE VIBRANT SEASON WHEN CHERRY BLOSSOMS ARE IN FULL BLOOM...",
-                "traducao": "A estação vibrante em que as cerejeiras estão em plena floração..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "A estação vibrante em que as flores de cerejeira estão em plena floração..."
             },
             {
                 "caixa": 2,
@@ -25,7 +30,12 @@
                     807
                 ],
                 "texto": "APRIL,",
-                "traducao": "Abril,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Abril"
             },
             {
                 "caixa": 3,
@@ -36,7 +46,12 @@
                     2921
                 ],
                 "texto": "FOR ELEMENTARY, MIDDLE, AND HIGH SCHOOL STUDENTS, IT'S THE EXCITING START OF A NEW SEMESTER.",
-                "traducao": "Para alunos do ensino fundamental, médio e técnico, é o emocionante começo de um novo semestre."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Para os alunos do ensino fundamental, médio e superior, é o início emocionante de um novo semestre."
             }
         ]
     },
@@ -55,7 +70,12 @@
                     1126
                 ],
                 "texto": "BUT FOR A RETAKE STUDENT,",
-                "traducao": "PARA UM ALUNO QUE PRECISA REFATER"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Além de ser estudante de reforço,"
             },
             {
                 "caixa": 2,
@@ -66,7 +86,12 @@
                     225
                 ],
                 "texto": "FOR UNIVERSITY STUDENTS, IT'S THEIR TIME TO FULLY ENJOY THE CAMPUS LIFE THEY'VE DREAMED OF.",
-                "traducao": "Para estudantes universitários, é o momento de aproveitar ao máximo a vida no campus que sempre sonharam."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Para os estudantes universitários, chegou a hora de aproveitarem ao máximo a vida no campus com que sempre sonharam."
             },
             {
                 "caixa": 3,
@@ -77,7 +102,12 @@
                     2515
                 ],
                 "texto": "THERE'S NO SUCH THING.",
-                "traducao": "Não existe."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Não existe algo assim."
             },
             {
                 "caixa": 4,
@@ -88,7 +118,12 @@
                     3874
                 ],
                 "texto": "[EXAM FAILURE] PUNISHMENT FOR NOT FULFILLING ONE'S DUTIES AS A STUDENT.",
-                "traducao": "REPROVAÇÃO. PUNIÇÃO POR NÃO CUMPRIR AS OBRIGAÇÕES DE UM ESTUDANTE."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Punição por não cumprir os deveres de um estudante."
             }
         ]
     },
@@ -107,7 +142,12 @@
                     1982
                 ],
                 "texto": "A ROSY YOUTH IS ABSOLUTELY FORBIDDEN FOR THEM.",
-                "traducao": "A juventude exuberante é absolutamente proibida para eles."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "A juventude radiante está absolutamente proibida para eles."
             },
             {
                 "caixa": 2,
@@ -118,7 +158,12 @@
                     2715
                 ],
                 "texto": "I AM ALSO ONE OF THE MANY RETAKE STUDENTS.",
-                "traducao": "Eu também sou um dos muitos estudantes que fazem retoma."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu também sou um dos muitos alunos que fazem revisão para os exames."
             }
         ]
     },
@@ -137,7 +182,12 @@
                     1594
                 ],
                 "texto": "HEY, HO-YAH~!",
-                "traducao": "E aí, e aí~!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí, tudo bem?"
             },
             {
                 "caixa": 2,
@@ -148,7 +198,12 @@
                     841
                 ],
                 "texto": "I AM ALSO ONE OF THE MANY RETAKE STUDENTS.",
-                "traducao": "Eu também sou um dos muitos estudantes que fazem repetição."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu também sou um dos muitos alunos que fazem revisão para os exames."
             },
             {
                 "caixa": 3,
@@ -159,7 +214,12 @@
                     2556
                 ],
                 "texto": "-",
-                "traducao": "Por favor, forneça o texto em inglês que você deseja que eu traduza."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": ""
             }
         ]
     },
@@ -178,7 +238,12 @@
                     2305
                 ],
                 "texto": "YOU'RE EARLY TODAY!",
-                "traducao": "Você está cedo hoje!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você chegou cedo hoje!"
             },
             {
                 "caixa": 2,
@@ -189,7 +254,12 @@
                     264
                 ],
                 "texto": "HI~ GOOD MORNING!",
-                "traducao": "Oi~ Bom dia!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Olá! Bom dia"
             },
             {
                 "caixa": 3,
@@ -200,7 +270,12 @@
                     3144
                 ],
                 "texto": "CAN YOU STOP CALLING ME BY THAT NAME LIKE THAT..?",
-                "traducao": "Você pode parar de me chamar por aquele nome assim, então...?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Pode parar de me chamar desse jeito pelo nome?."
             },
             {
                 "caixa": 4,
@@ -211,7 +286,12 @@
                     2988
                 ],
                 "texto": "UGH, SERIOUSLY, STOP..!!",
-                "traducao": "Nossa, sério, para, por favor,!!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Pega leve, cara! Calma aí!"
             },
             {
                 "caixa": 5,
@@ -222,7 +302,12 @@
                     3952
                 ],
                 "texto": "OHHH~ HO-YAH IS TALKING BACK NOW?",
-                "traducao": "Ohhh~ O-YAH está respondendo agora?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí, tudo bem? HO-YAH está respondendo agora?"
             },
             {
                 "caixa": 6,
@@ -233,7 +318,12 @@
                     4134
                 ],
                 "texto": "YOU'VE GROWN UP, HUH?",
-                "traducao": "Você já cresceu, né?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você cresceu, hein?"
             }
         ]
     },
@@ -252,7 +342,12 @@
                     473
                 ],
                 "texto": "TODAY, I'M GOING TO SOLVE THE MOCK EXAM FROM 2019.",
-                "traducao": "Hoje, vou resolver a prova simulada de 2019."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Hoje eu vou resolver o exame simulado de 2019."
             },
             {
                 "caixa": 2,
@@ -263,7 +358,12 @@
                     592
                 ],
                 "texto": "WANNA BET WHO SCORES HIGHER?",
-                "traducao": "Quer apostar quem faz mais pontos?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Quer apostar em quem marcará mais gols?"
             },
             {
                 "caixa": 3,
@@ -274,7 +374,12 @@
                     2138
                 ],
                 "texto": "WHERE DID ALL THOSE SWEET WORDS THAT WERE SAID EARLIER DISAPPEAR TO?",
-                "traducao": "Onde foram parar todas aquelas palavras doces que foram ditas antes?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Para onde foram desaparecer todas aquelas palavras doces que foram d语 antes?"
             },
             {
                 "caixa": 4,
@@ -285,7 +390,12 @@
                     2429
                 ],
                 "texto": "HOW ABOUT THE LOSER BUYS FOOD?",
-                "traducao": "E aí, o perdedor paga a conta?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Que tal o perdedor comprar a comida?"
             },
             {
                 "caixa": 5,
@@ -296,6 +406,11 @@
                     1370
                 ],
                 "texto": "• • • • •",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "• • • • •"
             },
             {
@@ -307,7 +422,12 @@
                     3234
                 ],
                 "texto": "DEAL?",
-                "traducao": "Feito?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Negócio fechado!"
             },
             {
                 "caixa": 7,
@@ -318,7 +438,12 @@
                     3586
                 ],
                 "texto": "YOU MIGHT THINK SHE'S MOCKING ME,",
-                "traducao": "Você pode pensar que ela está me provocando,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você pode achar que ela está zoando comigo."
             },
             {
                 "caixa": 8,
@@ -329,7 +454,12 @@
                     4309
                 ],
                 "texto": "BUT RIGHT NOW,",
-                "traducao": "Mas, neste momento,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "agora mesmo"
             }
         ]
     },
@@ -348,7 +478,12 @@
                     1027
                 ],
                 "texto": "ANSWER ME.",
-                "traducao": "Responda."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Responda para mim."
             },
             {
                 "caixa": 2,
@@ -359,6 +494,11 @@
                     1466
                 ],
                 "texto": "SHE'S TRYING TO DESTROY ME.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Ela está tentando me destruir."
             },
             {
@@ -370,6 +510,11 @@
                     3501
                 ],
                 "texto": "3-4",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "3-4"
             },
             {
@@ -381,6 +526,11 @@
                     3161
                 ],
                 "texto": "B",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "B"
             }
         ]
@@ -400,7 +550,12 @@
                     2036
                 ],
                 "texto": "YEO JIWOO.",
-                "traducao": "YEO JIWOO."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "YEO Jiwoo"
             },
             {
                 "caixa": 2,
@@ -411,7 +566,12 @@
                     3554
                 ],
                 "texto": "A GIRL WHO GOES TO THE SAME RETAKE ACADEMY, AND IS IN THE SAME CLASS AS ME.",
-                "traducao": "Uma garota que faz a mesma prova de retoma e que está na mesma turma que eu."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "A garota que frequenta a mesma academia de reforço escolar e está na mesma turma que eu."
             },
             {
                 "caixa": 3,
@@ -422,7 +582,12 @@
                     4445
                 ],
                 "texto": "WITH LOOKS THAT OUTSHINE CELEBRITIES AND TOP-NOTCH GRADES, SHE'S AN ABSURDLY OVERPOWERED CHARACTER.",
-                "traducao": "Com aparências que superam celebridades e notas de excelência, ela é um personagem absurdamente poderoso."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Com um visual que supera até o das celebridades e graus de habilidade incríveis, ela é um personagem extremamente poderoso."
             },
             {
                 "caixa": 4,
@@ -433,7 +598,12 @@
                     3205
                 ],
                 "texto": "H",
-                "traducao": "H"
+                "font_color": [
+                    199,
+                    167,
+                    151
+                ],
+                "traducao": "E aí, tudo bem? Tudo em cê tá certo?"
             }
         ]
     },
@@ -452,7 +622,12 @@
                     1358
                 ],
                 "texto": "SHE'S FAMOUS THROUGHOUT THE ACADEMY, AND THERE ISN'T ANYBODY WHO DOESN'T KNOW HER.",
-                "traducao": "Ela é famosa em toda a academia e não existe ninguém que ela não conheça."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Ela é famosa em toda a academia, e não existe ninguém que não a conheça."
             },
             {
                 "caixa": 2,
@@ -463,7 +638,12 @@
                     1959
                 ],
                 "texto": "THE ACADEMY'S MOST NOTABLE TROUBLEMAKER.",
-                "traducao": "O mais notável problemático da Academia."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "O maior causador de problemas da Academia."
             },
             {
                 "caixa": 3,
@@ -474,6 +654,11 @@
                     453
                 ],
                 "texto": "",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": ""
             },
             {
@@ -485,7 +670,12 @@
                     3967
                 ],
                 "texto": "I CAN ALREADY LIST THE [INCIDENTS] CAUSED BY YEO JIWOO SO FAR:",
-                "traducao": "Eu já consigo listar os [INCIDENTES] causados por Yeo Jiwoo até agora:"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu já posso listar os [INCIDENTES] causados por YEO JIWOO até agora:"
             },
             {
                 "caixa": 5,
@@ -496,7 +686,12 @@
                     2966
                 ],
                 "texto": "ABOUT A MONTH AFTER THE ACADEMY STARTED,",
-                "traducao": "Cerca de um mês após a academia começar,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "aproximadamente um mês depois de a academia ter começado a funcionar,"
             },
             {
                 "caixa": 6,
@@ -507,6 +702,11 @@
                     3133
                 ],
                 "texto": "EZMANGA",
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
                 "traducao": "EZMANGA"
             }
         ]
@@ -526,7 +726,12 @@
                     1877
                 ],
                 "texto": "A RESTRICTION WAS IMPOSED ON STUDENTS FROM OTHER CLASSES ENTERING OUR HALLWAY.",
-                "traducao": "Foi imposto um restrições aos alunos de outras turmas entrarem no nosso corredor."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Foi imposta uma restrição aos alunos de outras turmas para que eles não entras语 no nosso corredor."
             },
             {
                 "caixa": 2,
@@ -537,7 +742,12 @@
                     507
                 ],
                 "texto": "HEY, YOU IDIOTS!",
-                "traducao": "Ei, vocês idiotas!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Ei, idiotas!"
             },
             {
                 "caixa": 3,
@@ -548,7 +758,12 @@
                     263
                 ],
                 "texto": "ON THE FIRST DAY OF THE SEMESTER, THE HALLWAY TO OUR CLASS WAS FILLED WITH PEOPLE WHO CAME JUST TO SEE HER.",
-                "traducao": "No primeiro dia do semestre, o corredor do nosso curso estava cheio de pessoas que vieram apenas para vê-la."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "No primeiro dia do semestre, o corredor que levava à nossa sala de aula estava cheio de pessoas que vieram só para v"
             },
             {
                 "caixa": 4,
@@ -559,7 +774,12 @@
                     2357
                 ],
                 "texto": "ON MARCH 14, WHITE DAY,",
-                "traducao": "Em 14 de março, Dia Branco,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "No dia 14 de março, Dia Branco,"
             },
             {
                 "caixa": 5,
@@ -570,7 +790,12 @@
                     539
                 ],
                 "texto": "oR 4o",
-                "traducao": "quatro zero"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "oR 4o"
             },
             {
                 "caixa": 6,
@@ -581,7 +806,12 @@
                     4335
                 ],
                 "texto": "SHE'S RECEIVED 18 CONFESSIONS IN JUST A MONTH.",
-                "traducao": "Ela recebeu 18 confissões em apenas um mês."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Ela já recebeu 18 confissões em apenas um mês."
             },
             {
                 "caixa": 7,
@@ -592,7 +822,12 @@
                     3691
                 ],
                 "texto": "WE HAD TO USE A SHOVEL TO CLEAR THE MOUNTAIN OF CANDIES AND CHOCOLATES LEFTON YEO JIWOO'S DESK.",
-                "traducao": "Tivemos que usar uma pá para limpar a montanha de doces e chocolates que estava no balcão de Yeo Jiwoo."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Tivemos que usar uma pá para tirar todos os doces e chocolates que estavam em cima da mesa de Yeo Jiwoo."
             },
             {
                 "caixa": 8,
@@ -603,7 +838,12 @@
                     3339
                 ],
                 "texto": "**",
-                "traducao": "Por favor, forneça o texto em inglês que você deseja que eu traduza."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "**"
             },
             {
                 "caixa": 9,
@@ -614,7 +854,12 @@
                     3078
                 ],
                 "texto": "CANDY",
-                "traducao": "Goma de mascar"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Candy"
             },
             {
                 "caixa": 10,
@@ -625,7 +870,12 @@
                     2454
                 ],
                 "texto": "PR/N: White day is when men give chocolates to women as a return gift for Valentine's Day.",
-                "traducao": "PR/N: O Dia Branco é quando os homens dão chocolates às mulheres como um presente de agradecimento pelo Dia dos Namorados."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "O Dia dos Homens é quando os homens dão chocolates para as mulheres como presente de retorno pelo Dia dos Namorados."
             },
             {
                 "caixa": 11,
@@ -636,6 +886,11 @@
                     3342
                 ],
                 "texto": "++++ * **** +++++",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "++++ * **** +++++"
             }
         ]
@@ -655,7 +910,12 @@
                     1510
                 ],
                 "texto": "THE COMPETITION AMONG BOYS WHO CONFESSED TO HER WAS SO FIERCE THAT IT LED TO A GROUP BRAWL.",
-                "traducao": "A rivalidade entre os meninos que confessaram a ela era tão intensa que resultou em uma briga em grupo."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "A competição entre os caras que confessaram interesse nela era tão acirrada que acabou gerando uma briga em grupo."
             },
             {
                 "caixa": 2,
@@ -666,7 +926,12 @@
                     2025
                 ],
                 "texto": "NONE OF THEM COULD WIN YEO JIWOO'S HEART.",
-                "traducao": "Ninguém deles conseguiu conquistar o coração de Yeo Jiwoo."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Nenhum deles conseguiu ganhar o coração de Yeo Jiwoo."
             },
             {
                 "caixa": 3,
@@ -677,7 +942,12 @@
                     3255
                 ],
                 "texto": "ACCORDING TO THE ACADEMY'S STRICT RULES, THEY WERE ALL EXPELLED.",
-                "traducao": "De acordo com as rigorosas regras da academia, todos foram expulsos."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "De acordo com as regras rígidas da academia, todos eles foram expulsos."
             },
             {
                 "caixa": 4,
@@ -688,7 +958,12 @@
                     3866
                 ],
                 "texto": "DUE TO THESE EVENTS, YEO JIWOO EARNED THE NICKNAME,",
-                "traducao": "Devido a estes eventos, Yeo Jiwoo ganhou o apelido,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Devido a esses eventos, os Yeo Jiwoo ganharam o apelido de"
             },
             {
                 "caixa": 5,
@@ -699,7 +974,12 @@
                     4490
                 ],
                 "texto": "THE ENCHANTING",
-                "traducao": "Encantador"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "O encantador"
             }
         ]
     },
@@ -718,7 +998,12 @@
                     1882
                 ],
                 "texto": "'WITcH\"",
-                "traducao": "bruxa"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "WITcH"
             },
             {
                 "caixa": 2,
@@ -729,7 +1014,12 @@
                     1472
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    254,
+                    187,
+                    180
+                ],
+                "traducao": "EZMANGA"
             },
             {
                 "caixa": 3,
@@ -740,7 +1030,12 @@
                     3051
                 ],
                 "texto": "ANY GUY WHO GETS INVOLVED WITH HER",
-                "traducao": "Qualquer pessoa que se envolva com ela."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Qualquer cara que se envolver com ela"
             },
             {
                 "caixa": 4,
@@ -751,7 +1046,12 @@
                     4462
                 ],
                 "texto": "IS DEFINITELY DOOMED.",
-                "traducao": "Está definitivamente condenado."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Com certeza está condenado."
             }
         ]
     },
@@ -770,7 +1070,12 @@
                     839
                 ],
                 "texto": "BEFORE THINGS GET ANY MORE DANGEROUS",
-                "traducao": "Antes que as coisas se tornem mais perigosas"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Antes que as coisas fiquem ainda mais perigosas"
             },
             {
                 "caixa": 2,
@@ -781,7 +1086,12 @@
                     1931
                 ],
                 "texto": "I NEED TO TAKE PRECAUTIONS TO..",
-                "traducao": "Eu preciso tomar precauções para..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu preciso tomar cuidados para.."
             },
             {
                 "caixa": 3,
@@ -792,7 +1102,12 @@
                     4297
                 ],
                 "texto": "IF STRANGE RUMORS START SPREADING BECAUSE OF ME, WHAT WILL YOU DO?",
-                "traducao": "Se começarem a se espalhar rumores estranhos por causa de mim, o que você vai fazer?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Se começarem a circular rumores estranhos por minha causa, o que você vai fazer?"
             },
             {
                 "caixa": 4,
@@ -803,7 +1118,12 @@
                     2784
                 ],
                 "texto": "THE MORE YOU RESIST, THE WORSE IT'LL BE FOR YOU.",
-                "traducao": "Quanto mais você resistir, pior ficará para você."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Quanto mais você resistir, pior vai ficar para você."
             }
         ]
     },
@@ -822,7 +1142,12 @@
                     1295
                 ],
                 "texto": "WILL IT BE OKAY?",
-                "traducao": "Vai ficar tudo bem?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Vai ficar tudo bem."
             },
             {
                 "caixa": 2,
@@ -833,7 +1158,12 @@
                     2151
                 ],
                 "texto": "ARE YOU SURE YOU CAN HANDLE IT?",
-                "traducao": "Tem certeza que você consegue lidar com isso?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Tem certeza de que consegue lidar com isso?"
             },
             {
                 "caixa": 3,
@@ -844,7 +1174,12 @@
                     2943
                 ],
                 "texto": "YEAH, I'M FINE WITH IT.",
-                "traducao": "É, estou tudo bem com isso."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Sim, estou bem com isso."
             }
         ]
     },
@@ -863,7 +1198,12 @@
                     1462
                 ],
                 "texto": "UM, I THINK YOU MISUNDERSTOOD SOMETHING.",
-                "traducao": "Um, eu acho que você entendeu errado."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Acho que você entendeu errado algo."
             },
             {
                 "caixa": 2,
@@ -874,7 +1214,12 @@
                     1636
                 ],
                 "texto": "BY \"STRANGE RUMORS,\" I MEAN...",
-                "traducao": "Por \"estranhas coincidências\", eu quero dizer..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Por \"rumores estranhos\", quero d语..."
             },
             {
                 "caixa": 3,
@@ -885,6 +1230,11 @@
                     312
                 ],
                 "texto": "• • • • • • •",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "• • • • • • •"
             },
             {
@@ -896,7 +1246,12 @@
                     3343
                 ],
                 "texto": "RUMORS THAT WE'RE DATING?",
-                "traducao": "Rumores de que estamos namorando?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Só boatos, cara. Só rumores."
             },
             {
                 "caixa": 5,
@@ -907,7 +1262,12 @@
                     2615
                 ],
                 "texto": "RUMORS THAT W-WE'RE D-D-DATING...",
-                "traducao": "Rumores de que nós dois estávamos..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Boatos de que a gente está saindo..."
             },
             {
                 "caixa": 6,
@@ -918,7 +1278,12 @@
                     4047
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    255,
+                    230,
+                    215
+                ],
+                "traducao": "EZMANGA"
             }
         ]
     },
@@ -937,7 +1302,12 @@
                     1960
                 ],
                 "texto": "WHO CARES WHAT OTHER PEOPLE SAY? RUMORS ARE JUST RUMORS.",
-                "traducao": "Ninguém se importa com o que as outras pessoas dizem. Rumores são apenas rumores."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Quem se importa com o que os outros dizem? Rumores são apenas rumores."
             },
             {
                 "caixa": 2,
@@ -948,7 +1318,12 @@
                     2235
                 ],
                 "texto": "I DON'T MIND THAT STUFFN",
-                "traducao": "Não me importo com isso."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu não ligo para essas coisas."
             },
             {
                 "caixa": 3,
@@ -959,7 +1334,12 @@
                     636
                 ],
                 "texto": "IT'S OKAY, IT'S OKAYN",
-                "traducao": "Tudo bem, tudo bem."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Tá tudo bem, tá tudo em ordem."
             },
             {
                 "caixa": 4,
@@ -970,7 +1350,12 @@
                     3048
                 ],
                 "texto": "BUT WHY?",
-                "traducao": "Mas por quê?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Por quê?"
             }
         ]
     },
@@ -989,6 +1374,11 @@
                     349
                 ],
                 "texto": "DO YOU HATE THE IDEA OF DATING ME?",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Você odeia a ideia de sair comigo?"
             },
             {
@@ -1000,6 +1390,11 @@
                     3111
                 ],
                 "texto": "UGH..!!",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Ugh...!!"
             },
             {
@@ -1011,7 +1406,12 @@
                     4499
                 ],
                 "texto": "IF I WERE AN ORDINARY PERSON",
-                "traducao": "Se eu fosse uma pessoa comum"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Se eu fosse uma pessoa normal"
             }
         ]
     },
@@ -1030,7 +1430,12 @@
                     2434
                 ],
                 "texto": "YEO JIWOO, I KNOW EXACTLY WHAT YOU'RE UP TO.",
-                "traducao": "Yo Jiwoo, eu sei exatamente o que você está fazendo."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu sei exatamente o que você está fazendo."
             },
             {
                 "caixa": 2,
@@ -1041,7 +1446,12 @@
                     538
                 ],
                 "texto": "THIS WOULD HAVE ENDED ALREADY.",
-                "traducao": "Isto já teria acabado."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Isso já teria acabado há muito tempo."
             },
             {
                 "caixa": 3,
@@ -1052,7 +1462,12 @@
                     1078
                 ],
                 "texto": "BUT I'M DIFFERENT.",
-                "traducao": "Mas eu sou diferente."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu sou diferente."
             },
             {
                 "caixa": 4,
@@ -1063,7 +1478,12 @@
                     1356
                 ],
                 "texto": "T",
-                "traducao": "T"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Eu tô aqui, cara. Estou no meu quarto, no meu qu语室. Quer falar comigo? Quer que eu vá até aí?"
             },
             {
                 "caixa": 5,
@@ -1074,7 +1494,12 @@
                     4236
                 ],
                 "texto": "I WAS THE ACADEMY'S OVERALL TOP SCORER, AND YEO JIWOO CAME IN SECOND.",
-                "traducao": "Eu fui o melhor pontuador geral da academia, e Yeo Jiwoo veio em segundo lugar."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu fui o melhor marcador geral da academia, e o Yeo Jiwoo ficou em segundo lugar."
             },
             {
                 "caixa": 6,
@@ -1085,7 +1510,12 @@
                     3146
                 ],
                 "texto": "THE MOCK EXAM WE TOOK IN APRIL.",
-                "traducao": "A prova simulada que fizemos em abril."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "O exame simulado que fizemos em abril."
             },
             {
                 "caixa": 7,
@@ -1096,6 +1526,11 @@
                     3281
                 ],
                 "texto": "GA",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "GA"
             }
         ]
@@ -1115,7 +1550,12 @@
                     299
                 ],
                 "texto": "HER PLAN IS TO DISTRACT ME AND KNOCK ME DOWN AS HER COMPETITOR.",
-                "traducao": "Seu plano é me distrair e derrubar para me eliminar como sua concorrente."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Seu plano é me distrair e me derrotar como sua concorrente."
             },
             {
                 "caixa": 2,
@@ -1126,7 +1566,12 @@
                     545
                 ],
                 "texto": "SO? WHAT DO YOU THINK?",
-                "traducao": "Mas? O que você acha?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí? O que acha?"
             },
             {
                 "caixa": 3,
@@ -1137,6 +1582,11 @@
                     1183
                 ],
                 "texto": "I'M ASKING WHAT YOU THINK.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Estou perguntando o que você acha."
             },
             {
@@ -1148,7 +1598,12 @@
                     1596
                 ],
                 "texto": "THIS WOMAN IS TERRIFYING..!",
-                "traducao": "Esta mulher é aterrorizante..!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Essa mulher é assustadora..!"
             },
             {
                 "caixa": 5,
@@ -1159,7 +1614,12 @@
                     2268
                 ],
                 "texto": "REMEMBER,",
-                "traducao": "Lembre-se,"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Lembre-se:"
             },
             {
                 "caixa": 6,
@@ -1170,7 +1630,12 @@
                     2764
                 ],
                 "texto": "THIS GIRL IS AIMING TO RUIN MY RETAKE LIFE.",
-                "traducao": "Essa garota está tentando arruinar minha vida."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Essa garota está tentando arruinar a minha vida depois da reprovação."
             },
             {
                 "caixa": 7,
@@ -1181,7 +1646,12 @@
                     4424
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    201,
+                    170,
+                    155
+                ],
+                "traducao": "EZMANGA"
             }
         ]
     },
@@ -1200,7 +1670,12 @@
                     1982
                 ],
                 "texto": "HO-YAH?",
-                "traducao": "HO-YAH?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí, tudo bem? Tudo em c语秩序?"
             },
             {
                 "caixa": 2,
@@ -1211,6 +1686,11 @@
                     482
                 ],
                 "texto": "SHE'S A WITCH.",
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
                 "traducao": "Ela é uma bruxa."
             },
             {
@@ -1222,7 +1702,12 @@
                     3063
                 ],
                 "texto": "HEY, ARE YOU LISTENINGN?",
-                "traducao": "Ei, você está ouvindo?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí, você está ouvindo?"
             }
         ]
     },
@@ -1241,7 +1726,12 @@
                     2027
                 ],
                 "texto": "IT LOOKS BROKEN.",
-                "traducao": "Parece quebrado."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Parece que está quebrado."
             },
             {
                 "caixa": 2,
@@ -1252,7 +1742,12 @@
                     1804
                 ],
                 "texto": "WHAT'S WITH THIS WATCH?",
-                "traducao": "Qual é da relógio?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "O que há com esse relógio?"
             }
         ]
     },
@@ -1271,7 +1766,12 @@
                     420
                 ],
                 "texto": "WHY DO YOU EVEN WEAR SOMETHING LIKE THIS?",
-                "traducao": "Por que você está usando uma coisa dessas?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Por que você usa algo assim?"
             },
             {
                 "caixa": 2,
@@ -1282,7 +1782,12 @@
                     1816
                 ],
                 "texto": "HEY.",
-                "traducao": "E aí."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí? Tudo bem?"
             },
             {
                 "caixa": 3,
@@ -1293,7 +1798,12 @@
                     1976
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    167,
+                    114,
+                    75
+                ],
+                "traducao": "EZMANGA"
             },
             {
                 "caixa": 4,
@@ -1304,7 +1814,12 @@
                     3373
                 ],
                 "texto": "DON'T PUSH IT TOO FAR, OKAY?",
-                "traducao": "Não force a barra, ok?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Não exagere tanto, tá bom?"
             }
         ]
     },
@@ -1323,6 +1838,11 @@
                     2048
                 ],
                 "texto": "MAYBE YOU DON'T CARE ABOUT GETTING KICKED OUT, BUT I DO.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Talvez você não se importe em ser expulso, mas eu sim."
             },
             {
@@ -1334,7 +1854,12 @@
                     380
                 ],
                 "texto": "YOU KNOW HOW STRICT OUR ACADEMY IS ABOUT RELATIONSHIPS BETWEEN BOYS AND GIRLS.",
-                "traducao": "Você sabe como nossa academia é rígida em relação aos relacionamentos entre meninos e meninas."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você sabe o quê? Nossa academia é bem rigorosa em relação às relações entre garotos e garotas."
             },
             {
                 "caixa": 3,
@@ -1345,6 +1870,11 @@
                     1437
                 ],
                 "texto": "IF YOU KEEP THIS UP, WE COULD BOTH GET EXPELLED.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Se você continuar assim, nós dois podemos ser expulsos."
             },
             {
@@ -1356,7 +1886,12 @@
                     3229
                 ],
                 "texto": "STOP WASTING TIME AND FOCUS ON STUDYING, WILL YOU?",
-                "traducao": "Pare de perder tempo e foque nos estudos, vai?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Pare de perder tempo e se concentre nos estudos, vai?"
             },
             {
                 "caixa": 5,
@@ -1367,7 +1902,12 @@
                     4035
                 ],
                 "texto": "YEAH...",
-                "traducao": "É..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Pois é..."
             },
             {
                 "caixa": 6,
@@ -1378,7 +1918,12 @@
                     4114
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    208,
+                    168,
+                    154
+                ],
+                "traducao": "EZMANGA"
             },
             {
                 "caixa": 7,
@@ -1389,6 +1934,11 @@
                     4101
                 ],
                 "texto": "",
+                "font_color": [
+                    193,
+                    130,
+                    104
+                ],
                 "traducao": ""
             }
         ]
@@ -1408,7 +1958,12 @@
                     544
                 ],
                 "texto": "I DON'T HAVE TIME TO WASTE ON STUFF LIKE THIS.",
-                "traducao": "Não tenho tempo a perder com coisas como essa."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu não tenho tempo a perder com coisas desse tipo."
             },
             {
                 "caixa": 2,
@@ -1419,7 +1974,12 @@
                     1235
                 ],
                 "texto": "NO MATTER WHAT,",
-                "traducao": "Não importa o que."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Qualquer coisa que acontecer,"
             },
             {
                 "caixa": 3,
@@ -1430,6 +1990,11 @@
                     2125
                 ],
                 "texto": "I HAVE TO GET INTO MEDICAL SCHOOL.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Eu preciso entrar na faculdade de medicina."
             },
             {
@@ -1441,7 +2006,12 @@
                     4318
                 ],
                 "texto": "UNIVERSITY ADMISSIONS FINAL RESULTS",
-                "traducao": "RESULTADOS FINAIS DE ADMISSÃO NA UNIVERSIDADE"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Resultados finais dos processos seletivos para ingresso na universidade"
             }
         ]
     },
@@ -1460,7 +2030,12 @@
                     1774
                 ],
                 "texto": "REJECTED..?",
-                "traducao": "Rejeitado...?"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Rejeitado..?"
             },
             {
                 "caixa": 2,
@@ -1471,7 +2046,12 @@
                     306
                 ],
                 "texto": "APPLICATION REJECTED THANK YOU FOR YOUR SUPPORT NN",
-                "traducao": "APLICAÇÃO REJEITADA OBRIGADO(A) PELA SUA APOIO NN"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "A aplicação foi rejeitada. Obrigado pelo seu apoio, NN"
             },
             {
                 "caixa": 3,
@@ -1482,7 +2062,12 @@
                     3238
                 ],
                 "texto": "ME..???",
-                "traducao": "Me…???"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Eu tô aqui. Estou bem."
             },
             {
                 "caixa": 4,
@@ -1493,6 +2078,11 @@
                     3743
                 ],
                 "texto": "",
+                "font_color": [
+                    207,
+                    173,
+                    161
+                ],
                 "traducao": ""
             },
             {
@@ -1504,6 +2094,11 @@
                     4277
                 ],
                 "texto": "RD",
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
                 "traducao": "RD"
             }
         ]
@@ -1523,7 +2118,12 @@
                     1601
                 ],
                 "texto": "GETTING INTO MEDICAL SCHOOL IS THAT HARD, HUH?",
-                "traducao": "É tão difícil entrar na faculdade de medicina, não é?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Entrar em uma faculdade de medicina é tão difícil assim, é?"
             },
             {
                 "caixa": 2,
@@ -1534,6 +2134,11 @@
                     738
                 ],
                 "texto": "SO, JUHO...",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Então, Juho..."
             },
             {
@@ -1545,7 +2150,12 @@
                     3354
                 ],
                 "texto": "YOU'RE THE ONLY ONE",
-                "traducao": "Você é a única."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você é o único."
             }
         ]
     },
@@ -1564,7 +2174,12 @@
                     2291
                 ],
                 "texto": "TO HAVE FAILED AT IT.",
-                "traducao": "Não deu em mim."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Ter falhado nisso."
             },
             {
                 "caixa": 2,
@@ -1575,7 +2190,12 @@
                     334
                 ],
                 "texto": "IN OUR FAMILY",
-                "traducao": "NA NOSSA FAMÍLIA"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Em nossa família"
             },
             {
                 "caixa": 3,
@@ -1586,7 +2206,12 @@
                     3141
                 ],
                 "texto": "F-FATHER..!",
-                "traducao": "Pai..!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Pai..."
             }
         ]
     },
@@ -1605,7 +2230,12 @@
                     231
                 ],
                 "texto": "PLEASE, JUST GIVE ME ONE MORE CHANCE..",
-                "traducao": "Por favor, apenas me dê mais uma chance..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Por favor, me dê mais uma chance só.."
             },
             {
                 "caixa": 2,
@@ -1616,7 +2246,12 @@
                     2524
                 ],
                 "texto": "JUST",
-                "traducao": "É só."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "JUST"
             },
             {
                 "caixa": 3,
@@ -1627,6 +2262,11 @@
                     3883
                 ],
                 "texto": "QUIT STUDYING ALREADY.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Pare de estudar já."
             }
         ]
@@ -1646,7 +2286,12 @@
                     1518
                 ],
                 "texto": "TIME FOR ME",
-                "traducao": "É hora para mim."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "É hora de mim"
             },
             {
                 "caixa": 2,
@@ -1657,6 +2302,11 @@
                     2095
                 ],
                 "texto": "",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": ""
             },
             {
@@ -1668,6 +2318,11 @@
                     883
                 ],
                 "texto": "",
+                "font_color": [
+                    182,
+                    91,
+                    58
+                ],
                 "traducao": ""
             },
             {
@@ -1679,7 +2334,12 @@
                     2793
                 ],
                 "texto": "STOPPED THAT DAY.",
-                "traducao": "Parou naquele dia."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Paraíso. Foi um dia inesqueível."
             }
         ]
     },
@@ -1698,7 +2358,12 @@
                     1763
                 ],
                 "texto": "THIS IS THE LAST CHANCE I BARELY MANAGED TO GET...",
-                "traducao": "Esta é a última chance que mal consegui conseguir..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Isso aqui é a última chance que eu mal consegui conseguir..."
             },
             {
                 "caixa": 2,
@@ -1709,6 +2374,11 @@
                     3429
                 ],
                 "texto": "I HAVE TO GET INTO MEDICAL SCHOOL.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Eu preciso entrar na faculdade de medicina."
             },
             {
@@ -1720,6 +2390,11 @@
                     3038
                 ],
                 "texto": "TO RETURN TO MY PREVIOUS LIFE,",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Para voltar à minha vida anterior,"
             },
             {
@@ -1731,7 +2406,12 @@
                     4135
                 ],
                 "texto": "EVERY SECOND COUNTS IN THIS SITUATION.",
-                "traducao": "Cada segundo conta nesta situação."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Cada segundo conta muito nessa situação."
             }
         ]
     },
@@ -1750,7 +2430,12 @@
                     1207
                 ],
                 "texto": "THERE'S NO ROOM FOR WASTING TIME SOCIALIZING WITH OTHERS.",
-                "traducao": "Não há espaço para perder tempo socializando com outras pessoas."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Não há tempo a perder se socializando com os outros."
             },
             {
                 "caixa": 2,
@@ -1761,7 +2446,12 @@
                     3259
                 ],
                 "texto": "COUGH",
-                "traducao": "tosse"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Tosse"
             }
         ]
     },
@@ -1780,7 +2470,12 @@
                     1179
                 ],
                 "texto": "WHAT THE HECK, YOU..!!",
-                "traducao": "Que merda, você…!!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "E aí, cara? Tudo bem?"
             },
             {
                 "caixa": 2,
@@ -1791,7 +2486,12 @@
                     2010
                 ],
                 "texto": "YEO JIWOO, YOU BRAT..!!!",
-                "traducao": "YEO JIWOO, seu garoto(a)!!!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Ei, seu malandro...!!!"
             },
             {
                 "caixa": 3,
@@ -1802,6 +2502,11 @@
                     417
                 ],
                 "texto": "Cough!",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Tosse!"
             },
             {
@@ -1813,6 +2518,11 @@
                     200
                 ],
                 "texto": "AA",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "AA"
             },
             {
@@ -1824,7 +2534,12 @@
                     3420
                 ],
                 "texto": "WHAT ARE YOU DOING RIGHT NOW ? ••••",
-                "traducao": "O que você está fazendo agora?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "O que você está fazendo agora? ••••"
             },
             {
                 "caixa": 6,
@@ -1835,7 +2550,12 @@
                     3789
                 ],
                 "texto": "SO YOU'RE FINALLY SHOWING YOUR TRUE COLORS!!!",
-                "traducao": "Agora você está finalmente mostrando suas verdadeiras cores!!!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Então você finalmente está mostrando sua verdadeira face!!!"
             }
         ]
     },
@@ -1854,6 +2574,11 @@
                     2858
                 ],
                 "texto": "III • • • • • • •",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "III • • • • • • •"
             }
         ]
@@ -1873,7 +2598,12 @@
                     1990
                 ],
                 "texto": "WHAT WERE / YOU THINKING, JUST WALKING AROUND LIKE THAT?",
-                "traducao": "O que você estava pensando, andando assim, como se nada?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "O que você estava pensando, andando por aí desse jeito?"
             },
             {
                 "caixa": 2,
@@ -1884,7 +2614,12 @@
                     3667
                 ],
                 "texto": "YOU ALMOST GOT KILLED JUST NOW!",
-                "traducao": "Você quase foi morto agora mesmo!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você quase foi morto agora há pouco"
             }
         ]
     },
@@ -1903,7 +2638,12 @@
                     1501
                 ],
                 "texto": "S-SORRY...",
-                "traducao": "Desculpe..."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Desculpa..."
             },
             {
                 "caixa": 2,
@@ -1914,6 +2654,11 @@
                     1378
                 ],
                 "texto": "2 So J",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "2 So J"
             },
             {
@@ -1925,6 +2670,11 @@
                     274
                 ],
                 "texto": "? ! • • • •",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "? ! • • • •"
             },
             {
@@ -1936,6 +2686,11 @@
                     4113
                 ],
                 "texto": "• • • • • •",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "• • • • • •"
             },
             {
@@ -1947,6 +2702,11 @@
                     2421
                 ],
                 "texto": "6-2 DS",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "6-2 DS"
             }
         ]
@@ -1966,7 +2726,12 @@
                     1522
                 ],
                 "texto": "...SO, YOU'RE SAYING THAT",
-                "traducao": "...Então, você está dizendo que"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Então, você está dizendo que…"
             },
             {
                 "caixa": 2,
@@ -1977,7 +2742,12 @@
                     4270
                 ],
                 "texto": "AND YOU'RE WORRIED ABOUT GETTING EXPELLED, RIGHT?",
-                "traducao": "E você está preocupado em ser expulso, certo?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você está preocupado em ser expulso, não é?"
             },
             {
                 "caixa": 3,
@@ -1988,7 +2758,12 @@
                     3116
                 ],
                 "texto": "I'M A DISTRACTION TO YOUR STUDIES,",
-                "traducao": "Eu sou uma distração para seus estudos."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu sou um obstáculo nos seus estudos."
             }
         ]
     },
@@ -2007,6 +2782,11 @@
                     1269
                 ],
                 "texto": "YES...",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Sim..."
             },
             {
@@ -2018,7 +2798,12 @@
                     426
                 ],
                 "texto": "•  • • •  •",
-                "traducao": "• • • • •"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "•  • • •  •"
             },
             {
                 "caixa": 3,
@@ -2029,6 +2814,11 @@
                     3618
                 ],
                 "texto": "4A7",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "4A7"
             }
         ]
@@ -2048,7 +2838,12 @@
                     1375
                 ],
                 "texto": "OH MY~ THAT'S NOTHING.",
-                "traducao": "Nossa... isso não quer dizer nada."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Isso aí não é nada demais."
             },
             {
                 "caixa": 2,
@@ -2059,7 +2854,12 @@
                     2780
                 ],
                 "texto": "HONESTLY, I CAN SOLVE THAT PROBLEM FOR YOU IN ONE GO.",
-                "traducao": "Sinceramente, eu posso resolver esse problema para você de uma vez."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Sério, eu posso resolver esse problema para você de uma vez só."
             },
             {
                 "caixa": 3,
@@ -2070,7 +2870,12 @@
                     3180
                 ],
                 "texto": "...HUH?",
-                "traducao": "...Hã?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "...Eh? O que foi?"
             },
             {
                 "caixa": 4,
@@ -2081,7 +2886,12 @@
                     3695
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    253,
+                    211,
+                    194
+                ],
+                "traducao": "EZMANGA"
             }
         ]
     },
@@ -2100,7 +2910,12 @@
                     1040
                 ],
                 "texto": "YOU RANKED FIRST,",
-                "traducao": "Você chegou em primeiro lugar,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você ficou em primeiro lugar"
             },
             {
                 "caixa": 2,
@@ -2111,7 +2926,12 @@
                     288
                 ],
                 "texto": "DURING THE APRIL MOCK EXAM,",
-                "traducao": "Durante a prova simulada de abril,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Durante o simulado de abril,"
             },
             {
                 "caixa": 3,
@@ -2122,7 +2942,12 @@
                     2482
                 ],
                 "texto": "AND I CAME SECOND, RIGHT?",
-                "traducao": "E eu fiquei em segundo lugar, certo?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu fiquei em segundo, não é?"
             },
             {
                 "caixa": 4,
@@ -2133,7 +2958,12 @@
                     3134
                 ],
                 "texto": "IF, IN ANY FUTURE MOCK EXAM, I RANK HIGHER THAN YOU EVEN ONCE,",
-                "traducao": "Se, em qualquer prova simulada futura, eu me classificar melhor que você, mesmo que seja uma vez,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Se, em algum exame simulado no futuro, eu conseguir uma nota melhor do que a sua, sequer uma vez,"
             },
             {
                 "caixa": 5,
@@ -2144,6 +2974,11 @@
                     4420
                 ],
                 "texto": "THEN YOU'LL HAVE TO DATE ME.",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Então você vai ter que sair comigo."
             },
             {
@@ -2155,6 +2990,11 @@
                     2045
                 ],
                 "texto": "V",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "V"
             }
         ]
@@ -2174,7 +3014,12 @@
                     2165
                 ],
                 "texto": ")IF WE DATE, WE'LL GET EXPELLED FROM THE ACADEMY!",
-                "traducao": "Se a gente sair juntinhos, vamos ser expulsos da academia!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Se nós sairmos juntos, seremos expulsos da academia!"
             },
             {
                 "caixa": 2,
@@ -2185,7 +3030,12 @@
                     855
                 ],
                 "texto": "WH-WHAT?! WHAT KIND OF...?!",
-                "traducao": "O quê? Que tipo de...?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Isso aí é demais! Que tipo de...?!"
             },
             {
                 "caixa": 3,
@@ -2196,7 +3046,12 @@
                     4067
                 ],
                 "texto": "THEN TO AVOID THAT, YOU'LL HAVE TO STUDY EVEN HARDER TO BEAT ME.",
-                "traducao": "Então, para evitar isso, você vai ter que estudar ainda mais para me superar."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Então, pra evitar isso, você vai ter que estudar ainda mais para conseguir me derrotar."
             },
             {
                 "caixa": 4,
@@ -2207,7 +3062,12 @@
                     2986
                 ],
                 "texto": "ISN'T THAT WHAT YOU'RE WORRIED ABOUT?",
-                "traducao": "Você não está preocupado com isso, certo?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Isso não é exatamente o que te deixa preocupado?"
             },
             {
                 "caixa": 5,
@@ -2218,7 +3078,12 @@
                     2762
                 ],
                 "texto": "WHY WOULD I AGREE TO SOMETHING LIKE THAT...?!",
-                "traducao": "Por que eu concordaria com uma coisa dessas...?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Por que eu concordaria com algo assim...?!"
             },
             {
                 "caixa": 6,
@@ -2229,6 +3094,11 @@
                     2902
                 ],
                 "texto": "EZMANGA",
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
                 "traducao": "EZMANGA"
             }
         ]
@@ -2248,7 +3118,12 @@
                     1939
                 ],
                 "texto": "I'M NOT A DISTRACTION, I'M ACTUALLY HELPING YOU STUDY, DON'T YOU THINK?",
-                "traducao": "Eu não sou uma distração, na verdade estou te ajudando a estudar, não acha?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu não sou uma distração. Na verdade, estou ajudando você a estudar, não acha?"
             },
             {
                 "caixa": 2,
@@ -2259,7 +3134,12 @@
                     307
                 ],
                 "texto": "THANKS TO ME, YOU'LL HAVE A SOLID MOTIVATION TO STUDY HARDER.",
-                "traducao": "Graças a mim, você terá uma motivação sólida para estudar mais."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Graças a mim, você vai ter uma motivação sólida para estudar mais duro."
             },
             {
                 "caixa": 3,
@@ -2270,7 +3150,12 @@
                     3708
                 ],
                 "texto": "YOU'RE ACTING LIKE THE OUTCOME DOESN'T AFFECT YOU AT ALL,",
-                "traducao": "Você está agindo como se o resultado não te afetasse de forma alguma."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você está agindo como se o resultado não te afetasse nem um pouco."
             },
             {
                 "caixa": 4,
@@ -2281,7 +3166,12 @@
                     2861
                 ],
                 "texto": "ARE YOU STUPID?",
-                "traducao": "Você é burro?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você é idiota?"
             },
             {
                 "caixa": 5,
@@ -2292,7 +3182,12 @@
                     3851
                 ],
                 "texto": "BUT YOU'LL ALSO GET EXPELLED FROM",
-                "traducao": "MAS VOCÊ TAMBÉM SERÁ EXPULSADO DE"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "você também será expulso de"
             },
             {
                 "caixa": 6,
@@ -2303,7 +3198,12 @@
                     2667
                 ],
                 "texto": "WHAT KIND OF RIDICULOUS LOGIC IS THIS..?!",
-                "traducao": "Que lógica absurda é essa?!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Que lógica ridícula é essa...?!"
             }
         ]
     },
@@ -2322,7 +3222,12 @@
                     668
                 ],
                 "texto": "LIKE I SAID, I DON'T CARE IF I GET KICKED OUT.",
-                "traducao": "Como eu disse, não me importo se eu for expulso."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Como eu disse, não me importa se fui expulso."
             },
             {
                 "caixa": 2,
@@ -2333,7 +3238,12 @@
                     2012
                 ],
                 "texto": "BUT,",
-                "traducao": "Mas,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "MAS,"
             },
             {
                 "caixa": 3,
@@ -2344,6 +3254,11 @@
                     47
                 ],
                 "texto": "THE ACADEMY!",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "A Academia!"
             },
             {
@@ -2355,7 +3270,12 @@
                     3253
                 ],
                 "texto": "YOU SEEM TO CARE A LOT, DON'T YOU?",
-                "traducao": "Parece que você se importa bastante, não é?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Parece que você se importa muito, não é?"
             }
         ]
     },
@@ -2374,7 +3294,12 @@
                     244
                 ],
                 "texto": "THIS..!!",
-                "traducao": "Isto...!!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Isso aí!!"
             },
             {
                 "caixa": 2,
@@ -2385,6 +3310,11 @@
                     1887
                 ],
                 "texto": "!!! •• • • •",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "!!! •• • • •"
             },
             {
@@ -2396,6 +3326,11 @@
                     3105
                 ],
                 "texto": "IT'S STARTING.",
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
                 "traducao": "Está começando."
             },
             {
@@ -2407,7 +3342,12 @@
                     4006
                 ],
                 "texto": "YEO JIWOO'S \"MAGIC.\"",
-                "traducao": "A MÁGICA DE YEO JIWOO."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "A \"mágica\" de YEO JIWOO"
             }
         ]
     },
@@ -2426,6 +3366,11 @@
                     2008
                 ],
                 "texto": "WHAT'S WRONG?",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "O que houve?"
             },
             {
@@ -2437,7 +3382,12 @@
                     3557
                 ],
                 "texto": "ARE YOU SCARED?",
-                "traducao": "VOCÊ TEM MEDO?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Você está com medo?"
             },
             {
                 "caixa": 3,
@@ -2448,7 +3398,12 @@
                     4366
                 ],
                 "texto": "NO...",
-                "traducao": "Não..."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Sem problemas, cara! Tudo bem?"
             }
         ]
     },
@@ -2467,6 +3422,11 @@
                     1820
                 ],
                 "texto": "I CAN'T MOVE...",
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
                 "traducao": "Eu não consigo me mover..."
             },
             {
@@ -2478,6 +3438,11 @@
                     3606
                 ],
                 "texto": "UGH...",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Ugh..."
             },
             {
@@ -2489,7 +3454,12 @@
                     2692
                 ],
                 "texto": "I'M COMPLETELY TRAPPED..!",
-                "traducao": "Estou completamente preso…!"
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Estou completamente preso..!"
             },
             {
                 "caixa": 4,
@@ -2500,7 +3470,12 @@
                     3881
                 ],
                 "texto": "EZMANGA",
-                "traducao": "Ezmanga"
+                "font_color": [
+                    221,
+                    178,
+                    172
+                ],
+                "traducao": "EZMANGA"
             }
         ]
     },
@@ -2519,7 +3494,12 @@
                     3223
                 ],
                 "texto": "IANGA",
-                "traducao": "Iângua"
+                "font_color": [
+                    212,
+                    166,
+                    141
+                ],
+                "traducao": "IANGA"
             }
         ]
     },
@@ -2538,7 +3518,12 @@
                     2224
                 ],
                 "texto": "I'M NOT SCARED AT ALL.",
-                "traducao": "Eu não tenho medo nenhum."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Eu não estou com medo nenhum."
             },
             {
                 "caixa": 2,
@@ -2549,7 +3534,12 @@
                     1380
                 ],
                 "texto": "SCARED OF YOU??",
-                "traducao": "Assustado(a) comigo??"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Com certe'te que nãô! Estou aqui pra te ajudar. Estou sempre pronta para ajudar em tudo o语 que precisar"
             },
             {
                 "caixa": 3,
@@ -2560,6 +3550,11 @@
                     251
                 ],
                 "texto": "SCARED?",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "Assustado?"
             }
         ]
@@ -2579,7 +3574,12 @@
                     270
                 ],
                 "texto": "IF YOU'RE SO CONFIDENT, BRING IT ON.",
-                "traducao": "Se você é tão confiante, venha então."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Se você é tão confiante, vá em frente então."
             },
             {
                 "caixa": 2,
@@ -2590,7 +3590,12 @@
                     1038
                 ],
                 "texto": "ALRIGHT,",
-                "traducao": "OK,"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Tá bom, então."
             },
             {
                 "caixa": 3,
@@ -2601,7 +3606,12 @@
                     3056
                 ],
                 "texto": "I'LL BE COUNTING ON YOUN",
-                "traducao": "Vou contar com você."
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Vou contar com você"
             }
         ]
     },
@@ -2620,7 +3630,12 @@
                     617
                 ],
                 "texto": "SO NOW IT'S OKAY FOR ME TO STICK AROUND, RIGHT?",
-                "traducao": "Agora está tudo bem para eu ficar por aqui, certo?"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Sim, agora pode ficar aqui."
             },
             {
                 "caixa": 2,
@@ -2631,7 +3646,12 @@
                     1709
                 ],
                 "texto": "DON'T STICK SO CLOSE TO ME...!",
-                "traducao": "Não se aproxime tanto de mim...!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Não fique tão perto de mim..."
             },
             {
                 "caixa": 3,
@@ -2642,7 +3662,12 @@
                     1498
                 ],
                 "texto": "HUH? NO!",
-                "traducao": "Hah? Não!"
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
+                "traducao": "Não, não pode ser!"
             },
             {
                 "caixa": 4,
@@ -2653,7 +3678,12 @@
                     2850
                 ],
                 "texto": "You'll find it available up to chapter 15 exclusively on our website",
-                "traducao": "Você encontrará disponível até o capítulo 15 exclusivamente em nosso site."
+                "font_color": [
+                    255,
+                    255,
+                    255
+                ],
+                "traducao": "Você vai encontrar isso disponível até o capítulo 15, exclusivamente em nosso site."
             },
             {
                 "caixa": 5,
@@ -2664,6 +3694,11 @@
                     2936
                 ],
                 "texto": "WWW.EZMANGA.ORG",
+                "font_color": [
+                    51,
+                    17,
+                    4
+                ],
                 "traducao": "WWW.EZMANGA.ORG"
             },
             {
@@ -2675,6 +3710,11 @@
                     2519
                 ],
                 "texto": "m",
+                "font_color": [
+                    0,
+                    0,
+                    0
+                ],
                 "traducao": "m"
             }
         ]

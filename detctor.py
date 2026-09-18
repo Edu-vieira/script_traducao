@@ -111,7 +111,15 @@ for page_number, image_file in enumerate(image_files, start=1):
                 image_np,
                 blk_list
             )
+            print("\nCORES DETECTADAS:")
+
+            for i, blk in enumerate(blk_list, start=1):
+                print(
+                    f"Caixa {i}:",
+                    repr(blk.font_color)
+                )
         except Exception as e:
+
             print(f"ERRO no OCR: {e}")
             continue
 
@@ -139,7 +147,8 @@ for page_number, image_file in enumerate(image_files, start=1):
         bloco_resultado = {
             "caixa": i,
             "bbox": bbox,
-            "texto": texto
+            "texto": texto,
+            "font_color": list(blk.font_color)
         }
 
         pagina_resultado["blocos"].append(

@@ -31,9 +31,12 @@ Regras:
 - Traduza somente o texto fornecido.
 - Preserve o sentido original.
 - Use português brasileiro natural.
+- Use uma linguagem brasileira informal.
 - Não explique a tradução.
 - Não coloque aspas.
 - Não adicione comentários.
+- Caso haja texto entre '()', '[]' ou chaves, traduza mantendo esses caracteres.
+
 
 Texto:
 
