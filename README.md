@@ -4,7 +4,7 @@ Script para automatizar a tradução de capítulos de mangás/manhwas em formato
 
 > **Importante:** este script não funciona sozinho. Ele depende do repositório **Comic Translate** para realizar as etapas de processamento das páginas. O script é apenas uma automação que depende do Comic Translate.
 
-Este projeto é independente, para fins de aprendizado e ajuda à comunidade de leitura, portanto não possui `**NENHUM**` vínculo com os autores do `**Comic Translate**`.
+> Este projeto é independente, para fins de aprendizado e ajuda à comunidade de leitura, portanto não possui **`NENHUM`** vínculo com os autores do **`Comic Translate`**.
 
 ---
 
