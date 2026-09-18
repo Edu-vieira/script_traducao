@@ -10,12 +10,45 @@ from PySide6.QtGui import QColor, QFontDatabase
 
 
 # ============================================================
-# CAMINHO DO COMIC TRANSLATE
+# LOCALIZAR COMIC TRANSLATE
 # ============================================================
+
+def encontrar_comic_translate():
+
+    pasta_atual = os.path.dirname(
+        os.path.abspath(__file__)
+    )
+
+    while True:
+
+        caminho = os.path.join(
+            pasta_atual,
+            "comic-translate-main"
+        )
+
+        if os.path.isdir(caminho):
+            return caminho
+
+        pasta_pai = os.path.dirname(
+            pasta_atual
+        )
+
+        if pasta_pai == pasta_atual:
+            break
+
+        pasta_atual = pasta_pai
+
+    raise RuntimeError(
+        "Não foi possível encontrar a pasta "
+        "'comic-translate-main'."
+    )
+
+
+COMIC_TRANSLATE_DIR = encontrar_comic_translate()
 
 sys.path.insert(
     0,
-    r"C:\Users\EDUARDO\Documents\comic-translate-main"
+    COMIC_TRANSLATE_DIR
 )
 
 
@@ -53,21 +86,27 @@ from modules.rendering.render import (
     is_vertical_block,
 )
 
-from modules.utils.pipeline_config import get_config
+from modules.utils.pipeline_config import (
+    get_config
+)
 
 from pipeline.inpainting import (
     InpaintingHandler,
     call_inpaint_image,
 )
 
-from app.ui.canvas.text.text_item_properties import TextItemProperties
+from app.ui.canvas.text.text_item_properties import (
+    TextItemProperties
+)
 
 from app.ui.canvas.text_item import (
     OutlineInfo,
     OutlineType,
 )
 
-from app.ui.canvas.save_renderer import ImageSaveRenderer
+from app.ui.canvas.save_renderer import (
+    ImageSaveRenderer
+)
 
 
 # ============================================================
@@ -124,11 +163,13 @@ class FakeUI:
 class FakeSettingsPage:
 
     def __init__(self):
+
         self.ui = FakeUI()
 
     def get_tool_selection(self, tool):
 
         if tool == "inpainter":
+
             return INPAINTER
 
         raise ValueError(
@@ -136,6 +177,7 @@ class FakeSettingsPage:
         )
 
     def is_gpu_enabled(self):
+
         return USE_GPU
 
     def get_hd_strategy_settings(self):
@@ -151,6 +193,7 @@ class FakeSettingsPage:
 class FakeMainPage:
 
     def __init__(self):
+
         self.settings_page = FakeSettingsPage()
 
 
@@ -206,20 +249,11 @@ def criar_text_items(
     inpainted_image,
 ):
 
-    # --------------------------------------------------------
-    # FORMATAÇÃO NATIVA DAS TRADUÇÕES
-    # --------------------------------------------------------
-
     format_translations(
         blk_list,
         get_language_code(TARGET_LANG),
         upper_case=False,
     )
-
-
-    # --------------------------------------------------------
-    # ÁREA NATIVA DE RENDERIZAÇÃO
-    # --------------------------------------------------------
 
     get_best_render_area(
         blk_list,
@@ -227,49 +261,24 @@ def criar_text_items(
         inpainted_image,
     )
 
-
     text_items_state = []
-
-
-    # --------------------------------------------------------
-    # PROCESSAR CADA BLOCO
-    # --------------------------------------------------------
 
     for blk in blk_list:
 
         translation = blk.translation
 
-
-        # ----------------------------------------------------
-        # VERIFICAR SE A TRADUÇÃO PODE SER RENDERIZADA
-        # ----------------------------------------------------
-
         if not is_renderable_translation(
             translation
         ):
+
             continue
 
-
-        # ----------------------------------------------------
-        # POSIÇÃO E TAMANHO DO BLOCO
-        # ----------------------------------------------------
-
         x1, y1, width, height = blk.xywh
-
-
-        # ----------------------------------------------------
-        # DETERMINAR ORIENTAÇÃO DO TEXTO
-        # ----------------------------------------------------
 
         vertical = is_vertical_block(
             blk,
             get_language_code(TARGET_LANG)
         )
-
-
-        # ----------------------------------------------------
-        # WORD WRAP E TAMANHO DA FONTE NATIVOS
-        # ----------------------------------------------------
 
         (
             translation,
@@ -277,7 +286,6 @@ def criar_text_items(
             rendered_width,
             rendered_height,
         ) = pyside_word_wrap(
-
             translation,
             FONT_FAMILY,
             width,
@@ -297,11 +305,6 @@ def criar_text_items(
             ),
             return_metrics=True,
         )
-
-
-        # ----------------------------------------------------
-        # COR DO TEXTO
-        # ----------------------------------------------------
 
         setting_font_color = TEXT_COLOR
 
@@ -327,11 +330,6 @@ def criar_text_items(
             font_color.name()
         )
 
-
-        # ----------------------------------------------------
-        # CRIAR TEXT ITEM NATIVO
-        # ----------------------------------------------------
-
         x_render = (
             x1
             + (width - rendered_width) / 2
@@ -342,58 +340,36 @@ def criar_text_items(
             + (height - rendered_height) / 2
         )
 
-
         text_props = TextItemProperties(
-
             text=translation,
-
             font_family=FONT_FAMILY,
-
             font_size=font_size,
-
             text_color=font_color,
-
             alignment=ALIGNMENT,
-
             line_spacing=LINE_SPACING,
-
             outline_color=(
                 OUTLINE_COLOR
                 if OUTLINE
                 else None
             ),
-
             outline_width=OUTLINE_WIDTH,
-
             bold=BOLD,
-
             italic=ITALIC,
-
             underline=UNDERLINE,
-
             position=(
                 x_render,
                 y_render
             ),
-
             rotation=blk.angle,
-
             scale=1.0,
-
             transform_origin=(
                 blk.tr_origin_point
             ),
-
             width=rendered_width,
-
             height=rendered_height,
-
             direction=DIRECTION,
-
             vertical=vertical,
-
             selection_outlines=[
-
                 OutlineInfo(
                     0,
                     len(translation),
@@ -401,19 +377,12 @@ def criar_text_items(
                     OUTLINE_WIDTH,
                     OutlineType.Full_Document,
                 )
-
             ] if OUTLINE else [],
         )
-
-
-        # ----------------------------------------------------
-        # SALVAR ESTADO DO TEXT ITEM
-        # ----------------------------------------------------
 
         text_items_state.append(
             text_props.to_dict()
         )
-
 
     return text_items_state
 
@@ -429,15 +398,10 @@ def criar_cbz(
 
     import zipfile
 
-
     arquivos = sorted(
-
         [
-
             nome
-
             for nome in os.listdir(pasta)
-
             if nome.lower().endswith(
                 (
                     ".jpg",
@@ -446,11 +410,8 @@ def criar_cbz(
                     ".webp"
                 )
             )
-
         ]
-
     )
-
 
     print()
     print("=" * 60)
@@ -460,7 +421,6 @@ def criar_cbz(
     print(
         f"Páginas: {len(arquivos)}"
     )
-
 
     with zipfile.ZipFile(
         arquivo_saida,
@@ -484,7 +444,6 @@ def criar_cbz(
                 f"Adicionada: {nome}"
             )
 
-
     print()
     print("CBZ criado:")
     print(arquivo_saida)
@@ -503,17 +462,27 @@ def processar_capitulo(
 
     global FONT_FAMILY
 
-
     print("=" * 60)
     print("COMIC TRANSLATE - RENDERIZAÇÃO")
     print("=" * 60)
 
     print()
-    print(f"CBZ de entrada: {input_cbz}")
-    print(f"JSON de entrada: {input_json}")
-    print(f"Pasta de saída: {output_dir}")
-    print(f"CBZ de saída: {output_cbz}")
 
+    print(
+        f"CBZ de entrada: {input_cbz}"
+    )
+
+    print(
+        f"JSON de entrada: {input_json}"
+    )
+
+    print(
+        f"Pasta de saída: {output_dir}"
+    )
+
+    print(
+        f"CBZ de saída: {output_cbz}"
+    )
 
     # --------------------------------------------------------
     # QT
@@ -522,30 +491,32 @@ def processar_capitulo(
     app = QtWidgets.QApplication.instance()
 
     if app is None:
-        app = QtWidgets.QApplication(sys.argv)
 
+        app = QtWidgets.QApplication(
+            sys.argv
+        )
 
     # --------------------------------------------------------
     # CARREGAR FONTE
     # --------------------------------------------------------
 
-    FONT_PATH = (
-        r"C:\Users\EDUARDO\Documents\comic-translate-main"
-        r"\fontes\anime_ace_bb\animeace2_reg.ttf"
+    FONT_PATH = os.path.join(
+        COMIC_TRANSLATE_DIR,
+        "fontes",
+        "anime_ace_bb",
+        "animeace2_reg.ttf"
     )
-
 
     font_id = QFontDatabase.addApplicationFont(
         FONT_PATH
     )
 
-
     if font_id == -1:
 
         raise RuntimeError(
-            "Não foi possível carregar a fonte Anime Ace BB."
+            "Não foi possível carregar "
+            "a fonte Anime Ace BB."
         )
-
 
     FONT_FAMILY = (
         QFontDatabase.applicationFontFamilies(
@@ -553,11 +524,9 @@ def processar_capitulo(
         )[0]
     )
 
-
     print(
         f"Fonte carregada: {FONT_FAMILY}"
     )
-
 
     # --------------------------------------------------------
     # LER JSON
@@ -567,7 +536,6 @@ def processar_capitulo(
     print(
         "Lendo resultado da tradução..."
     )
-
 
     try:
 
@@ -581,7 +549,6 @@ def processar_capitulo(
                 arquivo
             )
 
-
     except Exception as e:
 
         print(
@@ -590,12 +557,10 @@ def processar_capitulo(
 
         raise
 
-
     print(
         f"Páginas encontradas: "
         f"{len(resultados)}"
     )
-
 
     # --------------------------------------------------------
     # PREPARAR CBZ
@@ -606,9 +571,7 @@ def processar_capitulo(
     print("PREPARANDO CBZ")
     print("=" * 60)
 
-
     file_handler = FileHandler()
-
 
     image_files = (
         file_handler.prepare_files(
@@ -616,12 +579,10 @@ def processar_capitulo(
         )
     )
 
-
     print(
         f"Páginas extraídas: "
         f"{len(image_files)}"
     )
-
 
     # --------------------------------------------------------
     # INPAINTER
@@ -632,19 +593,15 @@ def processar_capitulo(
     print("INICIALIZANDO INPAINTER")
     print("=" * 60)
 
-
     fake_main = FakeMainPage()
-
 
     inpainting_handler = InpaintingHandler(
         fake_main
     )
 
-
     config = get_config(
         fake_main.settings_page
     )
-
 
     print(
         f"Inpainter: {INPAINTER}"
@@ -658,7 +615,6 @@ def processar_capitulo(
         f"HD Strategy: {HD_STRATEGY}"
     )
 
-
     # --------------------------------------------------------
     # OUTPUT
     # --------------------------------------------------------
@@ -667,7 +623,6 @@ def processar_capitulo(
         output_dir,
         exist_ok=True
     )
-
 
     # --------------------------------------------------------
     # PÁGINAS
@@ -682,7 +637,6 @@ def processar_capitulo(
             pagina_index + 1
         )
 
-
         print()
         print("=" * 60)
 
@@ -693,11 +647,6 @@ def processar_capitulo(
         )
 
         print("=" * 60)
-
-
-        # ----------------------------------------------------
-        # ENCONTRAR IMAGEM
-        # ----------------------------------------------------
 
         if pagina_index >= len(
             image_files
@@ -710,11 +659,9 @@ def processar_capitulo(
 
             continue
 
-
         image_file = image_files[
             pagina_index
         ]
-
 
         if not ensure_prepared_path_materialized(
             image_file
@@ -728,11 +675,6 @@ def processar_capitulo(
 
             continue
 
-
-        # ----------------------------------------------------
-        # ABRIR IMAGEM
-        # ----------------------------------------------------
-
         try:
 
             image_pil = Image.open(
@@ -741,11 +683,9 @@ def processar_capitulo(
 
             image_pil.load()
 
-
             image = np.array(
                 image_pil.convert("RGB")
             )
-
 
         except Exception as e:
 
@@ -755,13 +695,11 @@ def processar_capitulo(
 
             continue
 
-
         print(
             f"Imagem: "
             f"{image.shape[1]}x"
             f"{image.shape[0]}"
         )
-
 
         # ----------------------------------------------------
         # RECONSTRUIR TEXTBLOCKS
@@ -772,9 +710,7 @@ def processar_capitulo(
             []
         )
 
-
         blk_list = []
-
 
         for bloco_json in blocos_json:
 
@@ -783,43 +719,36 @@ def processar_capitulo(
                 ""
             ).strip()
 
-
             traducao = bloco_json.get(
                 "traducao",
                 ""
             ).strip()
 
-
             if not texto:
-                continue
 
+                continue
 
             blk = criar_textblock(
                 bloco_json
             )
 
-
             blk_list.append(
                 blk
             )
 
-
             print(
                 f"Texto: {texto!r}"
             )
-
 
             print(
                 f"Tradução: "
                 f"{traducao!r}"
             )
 
-
         print(
             f"Blocos reconstruídos: "
             f"{len(blk_list)}"
         )
-
 
         if not blk_list:
 
@@ -830,43 +759,29 @@ def processar_capitulo(
 
             continue
 
-
         # ----------------------------------------------------
         # FILTRAR BLOCOS PARA INPAINTING
         # ----------------------------------------------------
 
         inpaint_blk_list = [
-
             blk
-
             for blk in blk_list
-
             if (
-
                 blk.text
-
                 and blk.text.strip()
-
                 and blk.translation
-
                 and blk.translation.strip()
-
                 and is_renderable_translation(
                     blk.translation
                 )
-
             )
-
         ]
 
-
         print()
-
         print(
             "Blocos para inpainting: "
             f"{len(inpaint_blk_list)}"
         )
-
 
         # ----------------------------------------------------
         # GERAR MÁSCARA
@@ -876,18 +791,15 @@ def processar_capitulo(
             "Gerando máscara..."
         )
 
-
         mask = generate_mask(
             image,
             inpaint_blk_list
         )
 
-
         print(
             f"Máscara gerada: "
             f"{mask.shape}"
         )
-
 
         # ----------------------------------------------------
         # INPAINTING NATIVO
@@ -896,7 +808,6 @@ def processar_capitulo(
         print(
             "Executando inpainting..."
         )
-
 
         inpainted_image = (
             call_inpaint_image(
@@ -908,11 +819,9 @@ def processar_capitulo(
             )
         )
 
-
         print(
             "Inpainting concluído."
         )
-
 
         # ----------------------------------------------------
         # RENDERIZAÇÃO DOS TEXTOS
@@ -922,7 +831,6 @@ def processar_capitulo(
             "Preparando textos..."
         )
 
-
         text_items_state = (
             criar_text_items(
                 blk_list,
@@ -931,12 +839,10 @@ def processar_capitulo(
             )
         )
 
-
         print(
             f"Text items: "
             f"{len(text_items_state)}"
         )
-
 
         # ----------------------------------------------------
         # RENDER NATIVO
@@ -946,11 +852,9 @@ def processar_capitulo(
             "Renderizando página..."
         )
 
-
         renderer = ImageSaveRenderer(
             inpainted_image
         )
-
 
         renderer.add_state_to_image(
             {
@@ -959,11 +863,9 @@ def processar_capitulo(
             }
         )
 
-
         final_image = (
             renderer.render_to_image()
         )
-
 
         # ----------------------------------------------------
         # SALVAR
@@ -973,12 +875,10 @@ def processar_capitulo(
             f"{pagina_index + 1:04d}.png"
         )
 
-
         caminho_saida = os.path.join(
             output_dir,
             nome_saida
         )
-
 
         Image.fromarray(
             final_image
@@ -986,12 +886,10 @@ def processar_capitulo(
             caminho_saida
         )
 
-
         print(
             f"Página salva: "
             f"{caminho_saida}"
         )
-
 
     # --------------------------------------------------------
     # CRIAR CBZ
@@ -1002,23 +900,20 @@ def processar_capitulo(
         output_cbz
     )
 
-
     print()
     print("=" * 60)
     print("PROCESSO CONCLUÍDO")
     print("=" * 60)
-    print()
 
+    print()
 
     print(
         "CBZ final:"
     )
 
-
     print(
         output_cbz
     )
-
 
     return output_cbz
 
@@ -1029,26 +924,30 @@ def processar_capitulo(
 
 if __name__ == "__main__":
 
-    INPUT_CBZ = (
-        r"C:\Users\EDUARDO\Documents\Academy_of_card"
-        r"\Originais\Chapter 1_50ee76.cbz"
+    BASE_DIR = os.path.dirname(
+        os.path.abspath(__file__)
     )
 
-    INPUT_JSON = (
-        r"C:\Users\EDUARDO\Documents\Academy_of_card"
-        r"\resultado_traduzido.json"
+    INPUT_CBZ = os.path.join(
+        BASE_DIR,
+        "Originais",
+        "Chapter 1_50ee76.cbz"
     )
 
-    OUTPUT_DIR = (
-        r"C:\Users\EDUARDO\Documents\Academy_of_card"
-        r"\Paginas_Traduzidas"
+    INPUT_JSON = os.path.join(
+        BASE_DIR,
+        "resultado_traduzido.json"
     )
 
-    OUTPUT_CBZ = (
-        r"C:\Users\EDUARDO\Documents\Academy_of_card"
-        r"\Chapter 1_50ee76_traduzido.cbz"
+    OUTPUT_DIR = os.path.join(
+        BASE_DIR,
+        "Paginas_Traduzidas"
     )
 
+    OUTPUT_CBZ = os.path.join(
+        BASE_DIR,
+        "Chapter 1_50ee76_traduzido.cbz"
+    )
 
     processar_capitulo(
         INPUT_CBZ,

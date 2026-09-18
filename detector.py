@@ -4,19 +4,82 @@ import os
 import json
 import numpy as np
 
-sys.path.insert(0, r"C:\Users\EDUARDO\Documents\comic-translate-main")
+
+# ============================================================
+# LOCALIZAR COMIC TRANSLATE
+# ============================================================
+
+def encontrar_comic_translate():
+
+    pasta_atual = os.path.dirname(
+        os.path.abspath(__file__)
+    )
+
+    while True:
+
+        caminho = os.path.join(
+            pasta_atual,
+            "comic-translate-main"
+        )
+
+        if os.path.isdir(caminho):
+            return caminho
+
+        pasta_pai = os.path.dirname(pasta_atual)
+
+        if pasta_pai == pasta_atual:
+            break
+
+        pasta_atual = pasta_pai
+
+    raise RuntimeError(
+        "Não foi possível encontrar a pasta "
+        "'comic-translate-main'."
+    )
+
+
+COMIC_TRANSLATE_DIR = encontrar_comic_translate()
+
+sys.path.insert(
+    0,
+    COMIC_TRANSLATE_DIR
+)
+
+
+# ============================================================
+# IMPORTS
+# ============================================================
 
 from PIL import Image
+
 from modules.utils.file_handler import (
     FileHandler,
     ensure_prepared_path_materialized,
 )
-from modules.detection.rtdetr_v2_onnx import RTDetrV2ONNXDetection
-from modules.ocr.ppocr.engine import PPOCRv5Engine
 
+from modules.detection.rtdetr_v2_onnx import (
+    RTDetrV2ONNXDetection
+)
+
+from modules.ocr.ppocr.engine import (
+    PPOCRv5Engine
+)
+
+
+# ============================================================
+# CONFIGURAÇÃO
+# ============================================================
+
+BASE_DIR = os.path.dirname(
+    os.path.abspath(__file__)
+)
 
 CONFIDENCE = 0.25
 
+
+# ============================================================
+# PROCESSAR CAPÍTULO
+# ============================================================
 
 def processar_capitulo(input_cbz, output_json):
 
@@ -28,7 +91,6 @@ def processar_capitulo(input_cbz, output_json):
     image_files = file_handler.prepare_files([input_cbz])
 
     print(f"\nQuantidade de paginas: {len(image_files)}")
-
 
     print("\n" + "=" * 60)
     print("INICIALIZANDO RT-DETR-v2")
@@ -42,7 +104,6 @@ def processar_capitulo(input_cbz, output_json):
     )
 
     print(f"Confiança mínima: {CONFIDENCE}")
-
 
     print("\n" + "=" * 60)
     print("INICIALIZANDO OCR")
@@ -58,34 +119,50 @@ def processar_capitulo(input_cbz, output_json):
 
     print("OCR inicializado.")
 
-
     resultados = []
-
 
     print("\n" + "=" * 60)
     print("PROCESSANDO PÁGINAS")
     print("=" * 60)
 
-
-    for page_number, image_file in enumerate(image_files, start=1):
+    for page_number, image_file in enumerate(
+        image_files,
+        start=1
+    ):
 
         print("\n")
         print("=" * 60)
-        print(f"PÁGINA {page_number}/{len(image_files)}")
+        print(
+            f"PÁGINA "
+            f"{page_number}/{len(image_files)}"
+        )
         print("=" * 60)
 
         print("Extraindo página do CBZ...")
 
-        if not ensure_prepared_path_materialized(image_file):
-            print("ERRO: não foi possível materializar:")
+        if not ensure_prepared_path_materialized(
+            image_file
+        ):
+
+            print(
+                "ERRO: não foi possível materializar:"
+            )
+
             print(image_file)
+
             continue
 
         try:
+
             img = Image.open(image_file)
             img.load()
+
         except Exception as e:
-            print(f"ERRO ao abrir imagem: {e}")
+
+            print(
+                f"ERRO ao abrir imagem: {e}"
+            )
+
             continue
 
         print(f"Imagem: {img.size}")
@@ -95,18 +172,30 @@ def processar_capitulo(input_cbz, output_json):
         print("\nDetectando texto...")
 
         try:
-            blk_list = detector.detect(image_np)
+
+            blk_list = detector.detect(
+                image_np
+            )
+
         except Exception as e:
-            print(f"ERRO na detecção: {e}")
+
+            print(
+                f"ERRO na detecção: {e}"
+            )
+
             continue
 
-        print(f"Blocos detectados: {len(blk_list)}")
+        print(
+            f"Blocos detectados: "
+            f"{len(blk_list)}"
+        )
 
         if blk_list:
 
             print("\nExecutando OCR...")
 
             try:
+
                 ocr_engine.process_image(
                     image_np,
                     blk_list
@@ -114,7 +203,11 @@ def processar_capitulo(input_cbz, output_json):
 
                 print("\nCORES DETECTADAS:")
 
-                for i, blk in enumerate(blk_list, start=1):
+                for i, blk in enumerate(
+                    blk_list,
+                    start=1
+                ):
+
                     print(
                         f"Caixa {i}:",
                         repr(blk.font_color)
@@ -122,24 +215,30 @@ def processar_capitulo(input_cbz, output_json):
 
             except Exception as e:
 
-                print(f"ERRO no OCR: {e}")
+                print(
+                    f"ERRO no OCR: {e}"
+                )
+
                 continue
 
         pagina_resultado = {
             "pagina": page_number,
-            "arquivo": os.path.basename(image_file),
+            "arquivo": os.path.basename(
+                image_file
+            ),
             "largura": int(img.width),
             "altura": int(img.height),
             "blocos": []
         }
 
-
         print("\n" + "-" * 60)
         print("TEXTO ENCONTRADO")
         print("-" * 60)
 
-
-        for i, blk in enumerate(blk_list, start=1):
+        for i, blk in enumerate(
+            blk_list,
+            start=1
+        ):
 
             texto = blk.text.strip()
 
@@ -152,29 +251,39 @@ def processar_capitulo(input_cbz, output_json):
                 "caixa": i,
                 "bbox": bbox,
                 "texto": texto,
-                "font_color": list(blk.font_color)
+                "font_color": list(
+                    blk.font_color
+                )
             }
 
-            pagina_resultado["blocos"].append(
+            pagina_resultado[
+                "blocos"
+            ].append(
                 bloco_resultado
             )
 
             if texto:
-                print(f"Caixa {i}: {texto!r}")
-            else:
-                print(f"Caixa {i}: [vazio]")
 
+                print(
+                    f"Caixa {i}: {texto!r}"
+                )
+
+            else:
+
+                print(
+                    f"Caixa {i}: [vazio]"
+                )
 
         print("-" * 60)
 
-        resultados.append(pagina_resultado)
-
+        resultados.append(
+            pagina_resultado
+        )
 
     print("\n")
     print("=" * 60)
     print("SALVANDO RESULTADOS")
     print("=" * 60)
-
 
     try:
 
@@ -191,14 +300,19 @@ def processar_capitulo(input_cbz, output_json):
                 indent=4
             )
 
-        print("\nJSON salvo com sucesso:")
+        print(
+            "\nJSON salvo com sucesso:"
+        )
+
         print(output_json)
 
     except Exception as e:
 
-        print(f"ERRO ao salvar JSON: {e}")
-        raise
+        print(
+            f"ERRO ao salvar JSON: {e}"
+        )
 
+        raise
 
     print("\n")
     print("=" * 60)
@@ -208,13 +322,24 @@ def processar_capitulo(input_cbz, output_json):
     return resultados
 
 
+# ============================================================
+# EXECUÇÃO MANUAL
+# ============================================================
+
 if __name__ == "__main__":
 
-    INPUT_CBZ = r"C:\Users\EDUARDO\Documents\Academy_of_card\Originais\Chapter 1_50ee76.cbz"
-    OUTPUT_JSON = r"C:\Users\EDUARDO\Documents\Academy_of_card\resultado_ocr.json"
+    INPUT_CBZ = os.path.join(
+        BASE_DIR,
+        "Originais",
+        "Chapter 1_50ee76.cbz"
+    )
+
+    OUTPUT_JSON = os.path.join(
+        BASE_DIR,
+        "resultado_ocr.json"
+    )
 
     processar_capitulo(
         INPUT_CBZ,
         OUTPUT_JSON
     )
-

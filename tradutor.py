@@ -1,12 +1,25 @@
 
+import os
 import json
 import requests
 
 
+# ============================================================
+# CONFIGURAÇÃO
+# ============================================================
+
+BASE_DIR = os.path.dirname(
+    os.path.abspath(__file__)
+)
+
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
-MODEL = "guinogueira/ffxiv-pt-hy-mt2:7b-q5_K_M"
+MODEL = "gemma3:270m"
 
+
+# ============================================================
+# TRADUÇÃO
+# ============================================================
 
 def traduzir(texto):
 
@@ -58,6 +71,10 @@ TRADUÇÃO:"""
     return dados["response"].strip()
 
 
+# ============================================================
+# PROCESSAR TRADUÇÃO
+# ============================================================
+
 def processar_traducao(input_json, output_json):
 
     print("=" * 60)
@@ -67,7 +84,6 @@ def processar_traducao(input_json, output_json):
     print(f"\nArquivo de entrada: {input_json}")
     print(f"Arquivo de saída:   {output_json}")
     print(f"Modelo:             {MODEL}")
-
 
     print("\nLendo resultado do OCR...")
 
@@ -86,9 +102,7 @@ def processar_traducao(input_json, output_json):
         print(f"ERRO ao ler o JSON: {e}")
         raise
 
-
     print(f"Páginas encontradas: {len(resultados)}")
-
 
     total_blocos = sum(
         len(pagina.get("blocos", []))
@@ -99,11 +113,9 @@ def processar_traducao(input_json, output_json):
 
     print(f"Blocos encontrados: {total_blocos}")
 
-
     print("\n" + "=" * 60)
     print("INICIANDO TRADUÇÃO")
     print("=" * 60)
-
 
     for pagina in resultados:
 
@@ -111,17 +123,14 @@ def processar_traducao(input_json, output_json):
 
         blocos = pagina.get("blocos", [])
 
-
         print("\n")
         print("-" * 60)
         print(f"PÁGINA {numero_pagina}")
         print("-" * 60)
 
-
         for bloco in blocos:
 
             texto = bloco.get("texto", "").strip()
-
 
             if not texto:
 
@@ -136,11 +145,9 @@ def processar_traducao(input_json, output_json):
 
                 continue
 
-
             print()
             print(f"Caixa {bloco.get('caixa', '?')}")
             print(f"Original:   {texto}")
-
 
             try:
 
@@ -150,7 +157,6 @@ def processar_traducao(input_json, output_json):
 
                 print(f"Tradução:   {traducao}")
 
-
             except requests.exceptions.ConnectionError:
 
                 print()
@@ -159,14 +165,12 @@ def processar_traducao(input_json, output_json):
 
                 raise
 
-
             except Exception as e:
 
                 print()
                 print(f"ERRO ao traduzir esta caixa: {e}")
 
                 bloco["traducao"] = ""
-
 
             blocos_processados += 1
 
@@ -175,12 +179,10 @@ def processar_traducao(input_json, output_json):
                 f"{blocos_processados}/{total_blocos}"
             )
 
-
     print("\n")
     print("=" * 60)
     print("SALVANDO RESULTADO")
     print("=" * 60)
-
 
     try:
 
@@ -197,16 +199,13 @@ def processar_traducao(input_json, output_json):
                 indent=4
             )
 
-
         print("\nJSON traduzido salvo com sucesso:")
         print(output_json)
-
 
     except Exception as e:
 
         print(f"ERRO ao salvar JSON: {e}")
         raise
-
 
     print("\n")
     print("=" * 60)
@@ -216,14 +215,23 @@ def processar_traducao(input_json, output_json):
     return resultados
 
 
+# ============================================================
+# EXECUÇÃO MANUAL
+# ============================================================
+
 if __name__ == "__main__":
 
-    INPUT_JSON = r"C:\Users\EDUARDO\Documents\Academy_of_card\resultado_ocr.json"
+    INPUT_JSON = os.path.join(
+        BASE_DIR,
+        "resultado_ocr.json"
+    )
 
-    OUTPUT_JSON = r"C:\Users\EDUARDO\Documents\Academy_of_card\resultado_traduzido.json"
+    OUTPUT_JSON = os.path.join(
+        BASE_DIR,
+        "resultado_traduzido.json"
+    )
 
     processar_traducao(
         INPUT_JSON,
         OUTPUT_JSON
     )
-
