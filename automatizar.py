@@ -1,6 +1,7 @@
 
 import os
 import json
+import shutil
 
 from detector import processar_capitulo
 from tradutor import processar_traducao
@@ -14,6 +15,7 @@ from main import processar_capitulo as renderizar_capitulo
 BASE_DIR = r"C:\Users\EDUARDO\Documents\Academy_of_card"
 
 ORIGINAIS_DIR = os.path.join(BASE_DIR, "Originais")
+
 TRADUZIDOS_DIR = os.path.join(BASE_DIR, "Traduzidos")
 
 # Arquivos temporários
@@ -25,10 +27,45 @@ PAGINAS_DIR = os.path.join(BASE_DIR, "Paginas_Traduzidas")
 
 
 # ============================================================
+# LIMPEZA DOS ARQUIVOS TEMPORÁRIOS
+# ============================================================
+
+def limpar_temporarios():
+
+    # --------------------------------------------------------
+    # Remove o JSON do OCR
+    # --------------------------------------------------------
+
+    if os.path.exists(OCR_JSON):
+        os.remove(OCR_JSON)
+        print("  - resultado_ocr.json removido.")
+
+    # --------------------------------------------------------
+    # Remove o JSON da tradução
+    # --------------------------------------------------------
+
+    if os.path.exists(TRADUCAO_JSON):
+        os.remove(TRADUCAO_JSON)
+        print("  - resultado_traduzido.json removido.")
+
+    # --------------------------------------------------------
+    # Limpa as páginas renderizadas
+    # --------------------------------------------------------
+
+    if os.path.exists(PAGINAS_DIR):
+        shutil.rmtree(PAGINAS_DIR)
+        print("  - Paginas_Traduzidas removida.")
+
+    # Recria a pasta vazia para o próximo capítulo
+    os.makedirs(PAGINAS_DIR, exist_ok=True)
+
+
+# ============================================================
 # PROCESSAMENTO DE UM CAPÍTULO
 # ============================================================
 
 def processar_um_capitulo(input_cbz):
+
     nome_arquivo = os.path.basename(input_cbz)
     nome_sem_extensao = os.path.splitext(nome_arquivo)[0]
 
@@ -41,6 +78,15 @@ def processar_um_capitulo(input_cbz):
     print("=" * 70)
     print(f"PROCESSANDO: {nome_arquivo}")
     print("=" * 70)
+
+    # --------------------------------------------------------
+    # Limpa qualquer sobra de uma execução anterior
+    # --------------------------------------------------------
+
+    print()
+    print("Limpando arquivos temporários anteriores...")
+
+    limpar_temporarios()
 
     # --------------------------------------------------------
     # 1. OCR / DETECÇÃO
@@ -86,6 +132,30 @@ def processar_um_capitulo(input_cbz):
 
     print("OK - Capítulo finalizado.")
 
+    # --------------------------------------------------------
+    # CONFIRMA que o CBZ foi criado antes de apagar temporários
+    # --------------------------------------------------------
+
+    if not os.path.exists(output_cbz):
+        raise RuntimeError(
+            "O CBZ final não foi encontrado. "
+            "Os arquivos temporários não serão apagados."
+        )
+
+    print()
+    print("CBZ final confirmado.")
+
+    # --------------------------------------------------------
+    # LIMPEZA
+    # --------------------------------------------------------
+
+    print()
+    print("Limpando arquivos temporários...")
+
+    limpar_temporarios()
+
+    print("OK - Limpeza concluída.")
+
     return output_cbz
 
 
@@ -127,6 +197,7 @@ def main():
         print("#" * 70)
 
         try:
+
             output_cbz = processar_um_capitulo(input_cbz)
 
             print()
@@ -141,8 +212,11 @@ def main():
             print("!" * 70)
 
             print()
+            print("Os arquivos temporários NÃO serão apagados")
+            print("para permitir a investigação do erro.")
+
+            print()
             print("O próximo capítulo não será iniciado automaticamente.")
-            print("Corrija o problema antes de continuar.")
 
             raise
 
