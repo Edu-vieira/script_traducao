@@ -69,6 +69,55 @@ Deixe essa janela do terminal aberta enquanto estiver utilizando o script.
 
 O servidor do Ollama precisa estar funcionando para que o script consiga enviar os textos para tradução.
 
+### Baixar o modelo de tradução
+
+Com o `ollama serve` funcionando, abra **outra janela/aba do terminal** e baixe o modelo utilizado pelo script:
+
+```powershell
+ollama pull guinogueira/ffxiv-pt-hy-mt2:7b-q5_K_M
+```
+
+Esse é o modelo utilizado atualmente pelo projeto para realizar as traduções.
+
+O fluxo ficará assim:
+
+```text
+TERMINAL 1
+│
+└── ollama serve
+        │
+        └── mantém o servidor do Ollama funcionando
+```
+
+```text
+TERMINAL 2
+│
+└── ollama pull guinogueira/ffxiv-pt-hy-mt2:7b-q5_K_M
+        │
+        └── baixa o modelo de tradução
+```
+
+Depois que o modelo terminar de ser baixado, ele ficará disponível localmente para o script.
+
+### Utilizar outro modelo
+
+Caso queira utilizar outro modelo, basta baixá-lo com:
+
+```powershell
+ollama pull modelo_escolhido
+```
+
+Por exemplo:
+
+```powershell
+ollama pull nome-do-modelo
+```
+
+Entretanto, **baixar outro modelo não é suficiente para que o script passe a utilizá-lo**. O nome do modelo também precisa ser alterado no arquivo `tradutor.py`.
+
+Além disso, ao escolher outro modelo, é importante considerar as capacidades de hardware da máquina. Modelos maiores geralmente exigem mais memória RAM e/ou VRAM e podem apresentar desempenho inferior em computadores com hardware mais limitado.
+
+
 ---
 
 ## 3. Criar a estrutura das obras
