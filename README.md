@@ -49,7 +49,7 @@ Caso queira colocar o Comic Translate em outro local, será necessário alterar 
 
 O Ollama é utilizado para executar localmente o modelo responsável pela tradução.
 
-Pode ser instalado via terminal pelo `winget`, no terminal execute o comando abaixo:
+Pode ser instalado via terminal pelo comando `winget`, no terminal execute o comando abaixo:
 
 ```powershell
 winget install Ollama.Ollama
