@@ -19,7 +19,7 @@
                     0,
                     0
                 ],
-                "traducao": "A estação vibrante em que as flores de cerejeira estão em plena floração..."
+                "traducao": "A estação vibrante em que as cerejeiras estão em plena floração..."
             },
             {
                 "caixa": 2,
@@ -35,7 +35,7 @@
                     0,
                     0
                 ],
-                "traducao": "Abril"
+                "traducao": "ABRIL"
             },
             {
                 "caixa": 3,
@@ -75,7 +75,7 @@
                     255,
                     255
                 ],
-                "traducao": "Além de ser estudante de reforço,"
+                "traducao": "Além do estudante que precisa fazer uma prova repetida,"
             },
             {
                 "caixa": 2,
@@ -123,7 +123,7 @@
                     0,
                     0
                 ],
-                "traducao": "Punição por não cumprir os deveres de um estudante."
+                "traducao": "[Falha no exame] Punição por não cumprir com os deveres de um estudante."
             }
         ]
     },
@@ -163,7 +163,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu também sou um dos muitos alunos que fazem revisão para os exames."
+                "traducao": "Eu também sou um dos muitos alunos que fazem revisões."
             }
         ]
     },
@@ -187,7 +187,7 @@
                     0,
                     0
                 ],
-                "traducao": "E aí, tudo bem?"
+                "traducao": "Ei! Oi!"
             },
             {
                 "caixa": 2,
@@ -203,7 +203,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu também sou um dos muitos alunos que fazem revisão para os exames."
+                "traducao": "Eu também sou um dos muitos estudantes que fazem revisões."
             },
             {
                 "caixa": 3,
@@ -259,7 +259,7 @@
                     0,
                     0
                 ],
-                "traducao": "Olá! Bom dia"
+                "traducao": "OLÁ! BOM DIA!"
             },
             {
                 "caixa": 3,
@@ -275,7 +275,7 @@
                     0,
                     0
                 ],
-                "traducao": "Pode parar de me chamar desse jeito pelo nome?."
+                "traducao": "Você pode parar de me chamar por esse nome desse jeito?."
             },
             {
                 "caixa": 4,
@@ -291,7 +291,7 @@
                     0,
                     0
                 ],
-                "traducao": "Pega leve, cara! Calma aí!"
+                "traducao": "Pára já, sério!!"
             },
             {
                 "caixa": 5,
@@ -307,7 +307,7 @@
                     0,
                     0
                 ],
-                "traducao": "E aí, tudo bem? HO-YAH está respondendo agora?"
+                "traducao": "OHHH~ HO-YAH, você está respondendo agora?"
             },
             {
                 "caixa": 6,
@@ -347,7 +347,7 @@
                     0,
                     0
                 ],
-                "traducao": "Hoje eu vou resolver o exame simulado de 2019."
+                "traducao": "Hoje, vou resolver o exame simulado de 2019."
             },
             {
                 "caixa": 2,
@@ -363,7 +363,7 @@
                     0,
                     0
                 ],
-                "traducao": "Quer apostar em quem marcará mais gols?"
+                "traducao": "Quer apostar em quem marcará mais pontos?"
             },
             {
                 "caixa": 3,
@@ -379,7 +379,7 @@
                     0,
                     0
                 ],
-                "traducao": "Para onde foram desaparecer todas aquelas palavras doces que foram d语 antes?"
+                "traducao": "Para onde desapareceram todas aquelas palavras doces que foram ditas anteriormente?"
             },
             {
                 "caixa": 4,
@@ -427,7 +427,7 @@
                     0,
                     0
                 ],
-                "traducao": "Negócio fechado!"
+                "traducao": "Negócio?"
             },
             {
                 "caixa": 7,
@@ -443,7 +443,7 @@
                     0,
                     0
                 ],
-                "traducao": "Você pode achar que ela está zoando comigo."
+                "traducao": "Você pode pensar que ela está zombando de mim."
             },
             {
                 "caixa": 8,
@@ -459,7 +459,7 @@
                     0,
                     0
                 ],
-                "traducao": "agora mesmo"
+                "traducao": "MAS AGORA MESMO,"
             }
         ]
     },
@@ -483,7 +483,7 @@
                     0,
                     0
                 ],
-                "traducao": "Responda para mim."
+                "traducao": "Responda-me."
             },
             {
                 "caixa": 2,
@@ -555,7 +555,7 @@
                     255,
                     255
                 ],
-                "traducao": "YEO Jiwoo"
+                "traducao": "YEO JIWOO"
             },
             {
                 "caixa": 2,
@@ -571,7 +571,7 @@
                     255,
                     255
                 ],
-                "traducao": "A garota que frequenta a mesma academia de reforço escolar e está na mesma turma que eu."
+                "traducao": "A garota que frequenta a mesma academia de reforço e está na mesma turma que eu."
             },
             {
                 "caixa": 3,
@@ -587,7 +587,7 @@
                     255,
                     255
                 ],
-                "traducao": "Com um visual que supera até o das celebridades e graus de habilidade incríveis, ela é um personagem extremamente poderoso."
+                "traducao": "Com uma aparência que supera até a das celebridades e graus de habilidade incríveis, ela é um personagem extremamente poderoso."
             },
             {
                 "caixa": 4,
@@ -603,7 +603,7 @@
                     167,
                     151
                 ],
-                "traducao": "E aí, tudo bem? Tudo em cê tá certo?"
+                "traducao": "H"
             }
         ]
     },
@@ -627,7 +627,7 @@
                     255,
                     255
                 ],
-                "traducao": "Ela é famosa em toda a academia, e não existe ninguém que não a conheça."
+                "traducao": "Ela é famosa em toda a academia, e não há ninguém que não a conheça."
             },
             {
                 "caixa": 2,
@@ -643,7 +643,7 @@
                     255,
                     255
                 ],
-                "traducao": "O maior causador de problemas da Academia."
+                "traducao": "O maior causador de problemas da academia."
             },
             {
                 "caixa": 3,
@@ -675,7 +675,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu já posso listar os [INCIDENTES] causados por YEO JIWOO até agora:"
+                "traducao": "Eu já posso listar os [incidentes] causados por Yeo Jiwoo até agora:"
             },
             {
                 "caixa": 5,
@@ -691,7 +691,7 @@
                     0,
                     0
                 ],
-                "traducao": "aproximadamente um mês depois de a academia ter começado a funcionar,"
+                "traducao": "Cerca de um mês após o início das aulas na academia,"
             },
             {
                 "caixa": 6,
@@ -731,7 +731,7 @@
                     0,
                     0
                 ],
-                "traducao": "Foi imposta uma restrição aos alunos de outras turmas para que eles não entras语 no nosso corredor."
+                "traducao": "Foi imposta uma restrição aos alunos de outras turmas para que eles não entrassem no nosso corredor."
             },
             {
                 "caixa": 2,
@@ -747,7 +747,7 @@
                     0,
                     0
                 ],
-                "traducao": "Ei, idiotas!"
+                "traducao": "Ei, vocês idiotas!"
             },
             {
                 "caixa": 3,
@@ -763,7 +763,7 @@
                     0,
                     0
                 ],
-                "traducao": "No primeiro dia do semestre, o corredor que levava à nossa sala de aula estava cheio de pessoas que vieram só para v"
+                "traducao": "No primeiro dia do semestre, o corredor que levava à nossa sala de aula estava repleto de pessoas que vieram apenas para vê-la."
             },
             {
                 "caixa": 4,
@@ -779,7 +779,7 @@
                     0,
                     0
                 ],
-                "traducao": "No dia 14 de março, Dia Branco,"
+                "traducao": "Em 14 de março, Dia Branco"
             },
             {
                 "caixa": 5,
@@ -859,7 +859,7 @@
                     255,
                     255
                 ],
-                "traducao": "Candy"
+                "traducao": "Açúcar"
             },
             {
                 "caixa": 10,
@@ -875,7 +875,7 @@
                     0,
                     0
                 ],
-                "traducao": "O Dia dos Homens é quando os homens dão chocolates para as mulheres como presente de retorno pelo Dia dos Namorados."
+                "traducao": "O Dia Branco é quando os homens dão chocolates às mulheres como presente de retorno pelo Dia dos Namorados."
             },
             {
                 "caixa": 11,
@@ -915,7 +915,7 @@
                     0,
                     0
                 ],
-                "traducao": "A competição entre os caras que confessaram interesse nela era tão acirrada que acabou gerando uma briga em grupo."
+                "traducao": "A competição entre os garotos que confessaram seu interesse nela era tão acirrada que levou a uma briga em grupo."
             },
             {
                 "caixa": 2,
@@ -979,7 +979,7 @@
                     255,
                     255
                 ],
-                "traducao": "O encantador"
+                "traducao": "O Encantador"
             }
         ]
     },
@@ -1003,7 +1003,7 @@
                     255,
                     255
                 ],
-                "traducao": "WITcH"
+                "traducao": "\"Witch\""
             },
             {
                 "caixa": 2,
@@ -1035,7 +1035,7 @@
                     0,
                     0
                 ],
-                "traducao": "Qualquer cara que se envolver com ela"
+                "traducao": "Qualquer homem que se envolver com ela"
             },
             {
                 "caixa": 4,
@@ -1051,7 +1051,7 @@
                     0,
                     0
                 ],
-                "traducao": "Com certeza está condenado."
+                "traducao": "Está definitivamente condenado."
             }
         ]
     },
@@ -1091,7 +1091,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu preciso tomar cuidados para.."
+                "traducao": "Eu preciso tomar precauções para..."
             },
             {
                 "caixa": 3,
@@ -1107,7 +1107,7 @@
                     0,
                     0
                 ],
-                "traducao": "Se começarem a circular rumores estranhos por minha causa, o que você vai fazer?"
+                "traducao": "Se começarem a circular rumores estranhos por minha causa, o que você fará?"
             },
             {
                 "caixa": 4,
@@ -1123,7 +1123,7 @@
                     0,
                     0
                 ],
-                "traducao": "Quanto mais você resistir, pior vai ficar para você."
+                "traducao": "Quanto mais você resistir, pior será para você."
             }
         ]
     },
@@ -1147,7 +1147,7 @@
                     0,
                     0
                 ],
-                "traducao": "Vai ficar tudo bem."
+                "traducao": "Será que vai ficar tudo bem?"
             },
             {
                 "caixa": 2,
@@ -1163,7 +1163,7 @@
                     0,
                     0
                 ],
-                "traducao": "Tem certeza de que consegue lidar com isso?"
+                "traducao": "Você tem certeza de que consegue lidar com isso?"
             },
             {
                 "caixa": 3,
@@ -1203,7 +1203,7 @@
                     0,
                     0
                 ],
-                "traducao": "Acho que você entendeu errado algo."
+                "traducao": "Um, acho que você entendeu algo errado."
             },
             {
                 "caixa": 2,
@@ -1219,7 +1219,7 @@
                     0,
                     0
                 ],
-                "traducao": "Por \"rumores estranhos\", quero d语..."
+                "traducao": "Por \"rumores estranhos\", quero d"
             },
             {
                 "caixa": 3,
@@ -1251,7 +1251,7 @@
                     0,
                     0
                 ],
-                "traducao": "Só boatos, cara. Só rumores."
+                "traducao": "Rumores de que estamos saindo?"
             },
             {
                 "caixa": 5,
@@ -1267,7 +1267,7 @@
                     0,
                     0
                 ],
-                "traducao": "Boatos de que a gente está saindo..."
+                "traducao": "Rumores de que nós estamos saindo..."
             },
             {
                 "caixa": 6,
@@ -1323,7 +1323,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu não ligo para essas coisas."
+                "traducao": "Eu não me importo com essas coisas."
             },
             {
                 "caixa": 3,
@@ -1339,7 +1339,7 @@
                     0,
                     0
                 ],
-                "traducao": "Tá tudo bem, tá tudo em ordem."
+                "traducao": "Está tudo bem, está tudo bem."
             },
             {
                 "caixa": 4,
@@ -1355,7 +1355,7 @@
                     0,
                     0
                 ],
-                "traducao": "Por quê?"
+                "traducao": "MAS POR QUÊ?"
             }
         ]
     },
@@ -1395,7 +1395,7 @@
                     0,
                     0
                 ],
-                "traducao": "Ugh...!!"
+                "traducao": "Ugh..!!"
             },
             {
                 "caixa": 3,
@@ -1411,7 +1411,7 @@
                     0,
                     0
                 ],
-                "traducao": "Se eu fosse uma pessoa normal"
+                "traducao": "Se eu fosse uma pessoa comum…"
             }
         ]
     },
@@ -1435,7 +1435,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu sei exatamente o que você está fazendo."
+                "traducao": "YEO Jiwoo, eu sei exatamente o que você está fazendo."
             },
             {
                 "caixa": 2,
@@ -1451,7 +1451,7 @@
                     0,
                     0
                 ],
-                "traducao": "Isso já teria acabado há muito tempo."
+                "traducao": "Isso já teria acabado agora."
             },
             {
                 "caixa": 3,
@@ -1467,7 +1467,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu sou diferente."
+                "traducao": "MAS EU SOU DIFERENTE."
             },
             {
                 "caixa": 4,
@@ -1483,7 +1483,7 @@
                     255,
                     255
                 ],
-                "traducao": "Eu tô aqui, cara. Estou no meu quarto, no meu qu语室. Quer falar comigo? Quer que eu vá até aí?"
+                "traducao": "T"
             },
             {
                 "caixa": 5,
@@ -1499,7 +1499,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu fui o melhor marcador geral da academia, e o Yeo Jiwoo ficou em segundo lugar."
+                "traducao": "Eu fui o melhor pontuador geral da academia, e o Yeo Jiwoo ficou em segundo lugar."
             },
             {
                 "caixa": 6,
@@ -1675,7 +1675,7 @@
                     0,
                     0
                 ],
-                "traducao": "E aí, tudo bem? Tudo em c语秩序?"
+                "traducao": "HO-YAH?"
             },
             {
                 "caixa": 2,
@@ -1707,7 +1707,7 @@
                     0,
                     0
                 ],
-                "traducao": "E aí, você está ouvindo?"
+                "traducao": "Ei, você está ouvindo?"
             }
         ]
     },
@@ -1747,7 +1747,7 @@
                     0,
                     0
                 ],
-                "traducao": "O que há com esse relógio?"
+                "traducao": "O que há com este relógio?"
             }
         ]
     },
@@ -1771,7 +1771,7 @@
                     0,
                     0
                 ],
-                "traducao": "Por que você usa algo assim?"
+                "traducao": "Por que você veste algo assim?"
             },
             {
                 "caixa": 2,
@@ -1787,7 +1787,7 @@
                     0,
                     0
                 ],
-                "traducao": "E aí? Tudo bem?"
+                "traducao": "Ei."
             },
             {
                 "caixa": 3,
@@ -1819,7 +1819,7 @@
                     0,
                     0
                 ],
-                "traducao": "Não exagere tanto, tá bom?"
+                "traducao": "Não exagere, tá bom?"
             }
         ]
     },
@@ -1859,7 +1859,7 @@
                     0,
                     0
                 ],
-                "traducao": "Você sabe o quê? Nossa academia é bem rigorosa em relação às relações entre garotos e garotas."
+                "traducao": "Você sabe o quão rigorosa é a nossa academia em relação às relações entre meninos e meninas."
             },
             {
                 "caixa": 3,
@@ -1891,7 +1891,7 @@
                     0,
                     0
                 ],
-                "traducao": "Pare de perder tempo e se concentre nos estudos, vai?"
+                "traducao": "Pare de perder tempo e concentre-se nos estudos, por favor."
             },
             {
                 "caixa": 5,
@@ -1907,7 +1907,7 @@
                     0,
                     0
                 ],
-                "traducao": "Pois é..."
+                "traducao": "Sim..."
             },
             {
                 "caixa": 6,
@@ -1979,7 +1979,7 @@
                     0,
                     0
                 ],
-                "traducao": "Qualquer coisa que acontecer,"
+                "traducao": "Não importa o quê."
             },
             {
                 "caixa": 3,
@@ -2011,7 +2011,7 @@
                     255,
                     255
                 ],
-                "traducao": "Resultados finais dos processos seletivos para ingresso na universidade"
+                "traducao": "Resultados finais das admissões nas universidades"
             }
         ]
     },
@@ -2051,7 +2051,7 @@
                     0,
                     0
                 ],
-                "traducao": "A aplicação foi rejeitada. Obrigado pelo seu apoio, NN"
+                "traducao": "A aplicação foi rejeitada. Obrigado pelo seu apoio. NN"
             },
             {
                 "caixa": 3,
@@ -2067,7 +2067,7 @@
                     255,
                     255
                 ],
-                "traducao": "Eu tô aqui. Estou bem."
+                "traducao": "Eu...???"
             },
             {
                 "caixa": 4,
@@ -2123,7 +2123,7 @@
                     0,
                     0
                 ],
-                "traducao": "Entrar em uma faculdade de medicina é tão difícil assim, é?"
+                "traducao": "Entrar em uma faculdade de medicina é tão difícil assim, não é?"
             },
             {
                 "caixa": 2,
@@ -2195,7 +2195,7 @@
                     0,
                     0
                 ],
-                "traducao": "Em nossa família"
+                "traducao": "EM NOSSA FAMÍLA"
             },
             {
                 "caixa": 3,
@@ -2211,7 +2211,7 @@
                     0,
                     0
                 ],
-                "traducao": "Pai..."
+                "traducao": "Pai...!"
             }
         ]
     },
@@ -2339,7 +2339,7 @@
                     255,
                     255
                 ],
-                "traducao": "Paraíso. Foi um dia inesqueível."
+                "traducao": "Parou naquele dia."
             }
         ]
     },
@@ -2363,7 +2363,7 @@
                     0,
                     0
                 ],
-                "traducao": "Isso aqui é a última chance que eu mal consegui conseguir..."
+                "traducao": "Esta é a última chance que consegui obter com grande esforço..."
             },
             {
                 "caixa": 2,
@@ -2379,7 +2379,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu preciso entrar na faculdade de medicina."
+                "traducao": "Eu preciso entrar em uma faculdade de medicina."
             },
             {
                 "caixa": 3,
@@ -2411,7 +2411,7 @@
                     0,
                     0
                 ],
-                "traducao": "Cada segundo conta muito nessa situação."
+                "traducao": "Cada segundo é importante nesta situação."
             }
         ]
     },
@@ -2475,7 +2475,7 @@
                     0,
                     0
                 ],
-                "traducao": "E aí, cara? Tudo bem?"
+                "traducao": "Que diabos, você..!!"
             },
             {
                 "caixa": 2,
@@ -2491,7 +2491,7 @@
                     0,
                     0
                 ],
-                "traducao": "Ei, seu malandro...!!!"
+                "traducao": "YEO Jiwoo, seu malandro!!"
             },
             {
                 "caixa": 3,
@@ -2555,7 +2555,7 @@
                     0,
                     0
                 ],
-                "traducao": "Então você finalmente está mostrando sua verdadeira face!!!"
+                "traducao": "Então, você finalmente está mostrando sua verdadeira face!!!"
             }
         ]
     },
@@ -2603,7 +2603,7 @@
                     0,
                     0
                 ],
-                "traducao": "O que você estava pensando, andando por aí desse jeito?"
+                "traducao": "O que você estava pensando, andando por aí assim, sozinho?"
             },
             {
                 "caixa": 2,
@@ -2643,7 +2643,7 @@
                     0,
                     0
                 ],
-                "traducao": "Desculpa..."
+                "traducao": "Desculpe..."
             },
             {
                 "caixa": 2,
@@ -2747,7 +2747,7 @@
                     0,
                     0
                 ],
-                "traducao": "Você está preocupado em ser expulso, não é?"
+                "traducao": "E você está preocupado em ser expulso, não é?"
             },
             {
                 "caixa": 3,
@@ -2763,7 +2763,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu sou um obstáculo nos seus estudos."
+                "traducao": "Eu sou um obstáculo aos seus estudos."
             }
         ]
     },
@@ -2787,7 +2787,7 @@
                     0,
                     0
                 ],
-                "traducao": "Sim..."
+                "traducao": "SIM..."
             },
             {
                 "caixa": 2,
@@ -2803,7 +2803,7 @@
                     0,
                     0
                 ],
-                "traducao": "•  • • •  •"
+                "traducao": "• • • • •"
             },
             {
                 "caixa": 3,
@@ -2843,7 +2843,7 @@
                     0,
                     0
                 ],
-                "traducao": "Isso aí não é nada demais."
+                "traducao": "Nossa! Isso não é nada."
             },
             {
                 "caixa": 2,
@@ -2859,7 +2859,7 @@
                     0,
                     0
                 ],
-                "traducao": "Sério, eu posso resolver esse problema para você de uma vez só."
+                "traducao": "Com certeza! Posso resolver esse problema para você imediatamente."
             },
             {
                 "caixa": 3,
@@ -2875,7 +2875,7 @@
                     0,
                     0
                 ],
-                "traducao": "...Eh? O que foi?"
+                "traducao": "...Hã?"
             },
             {
                 "caixa": 4,
@@ -2915,7 +2915,7 @@
                     0,
                     0
                 ],
-                "traducao": "Você ficou em primeiro lugar"
+                "traducao": "Você ficou em primeiro lugar."
             },
             {
                 "caixa": 2,
@@ -2931,7 +2931,7 @@
                     0,
                     0
                 ],
-                "traducao": "Durante o simulado de abril,"
+                "traducao": "Durante o exame simulado de abril,"
             },
             {
                 "caixa": 3,
@@ -2947,7 +2947,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu fiquei em segundo, não é?"
+                "traducao": "E eu fiquei em segundo lugar, não foi?"
             },
             {
                 "caixa": 4,
@@ -2963,7 +2963,7 @@
                     0,
                     0
                 ],
-                "traducao": "Se, em algum exame simulado no futuro, eu conseguir uma nota melhor do que a sua, sequer uma vez,"
+                "traducao": "Se, em algum exame simulado no futuro, eu conseguir uma nota maior do que a sua, sequer uma vez,"
             },
             {
                 "caixa": 5,
@@ -3019,7 +3019,7 @@
                     0,
                     0
                 ],
-                "traducao": "Se nós sairmos juntos, seremos expulsos da academia!"
+                "traducao": "Se sairmos juntos, seremos expulsos da academia!"
             },
             {
                 "caixa": 2,
@@ -3035,7 +3035,7 @@
                     0,
                     0
                 ],
-                "traducao": "Isso aí é demais! Que tipo de...?!"
+                "traducao": "O quê?! Que tipo de...?!"
             },
             {
                 "caixa": 3,
@@ -3051,7 +3051,7 @@
                     0,
                     0
                 ],
-                "traducao": "Então, pra evitar isso, você vai ter que estudar ainda mais para conseguir me derrotar."
+                "traducao": "Para evitar isso, você vai ter que estudar ainda mais duro para conseguir me vencer."
             },
             {
                 "caixa": 4,
@@ -3067,7 +3067,7 @@
                     0,
                     0
                 ],
-                "traducao": "Isso não é exatamente o que te deixa preocupado?"
+                "traducao": "Não é isso que está te deixando preocupado?"
             },
             {
                 "caixa": 5,
@@ -3123,7 +3123,7 @@
                     0,
                     0
                 ],
-                "traducao": "Eu não sou uma distração. Na verdade, estou ajudando você a estudar, não acha?"
+                "traducao": "Eu não sou um obstáculo. Na verdade, estou ajudando você a estudar, não acha?"
             },
             {
                 "caixa": 2,
@@ -3139,7 +3139,7 @@
                     0,
                     0
                 ],
-                "traducao": "Graças a mim, você vai ter uma motivação sólida para estudar mais duro."
+                "traducao": "Graças a mim, você terá uma motivação sólida para estudar com mais afinco."
             },
             {
                 "caixa": 3,
@@ -3155,7 +3155,7 @@
                     0,
                     0
                 ],
-                "traducao": "Você está agindo como se o resultado não te afetasse nem um pouco."
+                "traducao": "Você está agindo como se o resultado não te afetasse em nada."
             },
             {
                 "caixa": 4,
@@ -3171,7 +3171,7 @@
                     0,
                     0
                 ],
-                "traducao": "Você é idiota?"
+                "traducao": "Você é estúpido?"
             },
             {
                 "caixa": 5,
@@ -3187,7 +3187,7 @@
                     0,
                     0
                 ],
-                "traducao": "você também será expulso de"
+                "traducao": "MAS VOCÊ TAMBÉM SERÁ EXPULSO DE"
             },
             {
                 "caixa": 6,
@@ -3203,7 +3203,7 @@
                     0,
                     0
                 ],
-                "traducao": "Que lógica ridícula é essa...?!"
+                "traducao": "Que tipo de lógica ridícula é essa...?!"
             }
         ]
     },
@@ -3227,7 +3227,7 @@
                     0,
                     0
                 ],
-                "traducao": "Como eu disse, não me importa se fui expulso."
+                "traducao": "Como eu disse, não me importo se fui expulso."
             },
             {
                 "caixa": 2,
@@ -3259,7 +3259,7 @@
                     0,
                     0
                 ],
-                "traducao": "A Academia!"
+                "traducao": "A ACADEMIA!"
             },
             {
                 "caixa": 4,
@@ -3275,7 +3275,7 @@
                     0,
                     0
                 ],
-                "traducao": "Parece que você se importa muito, não é?"
+                "traducao": "Parece que você se importa muito com isso, não é?"
             }
         ]
     },
@@ -3299,7 +3299,7 @@
                     0,
                     0
                 ],
-                "traducao": "Isso aí!!"
+                "traducao": "Isso..!!"
             },
             {
                 "caixa": 2,
@@ -3347,7 +3347,7 @@
                     255,
                     255
                 ],
-                "traducao": "A \"mágica\" de YEO JIWOO"
+                "traducao": "\"Mágica\" de YEO Jiwoo"
             }
         ]
     },
@@ -3403,7 +3403,7 @@
                     255,
                     255
                 ],
-                "traducao": "Sem problemas, cara! Tudo bem?"
+                "traducao": "NO..."
             }
         ]
     },
@@ -3539,7 +3539,7 @@
                     0,
                     0
                 ],
-                "traducao": "Com certe'te que nãô! Estou aqui pra te ajudar. Estou sempre pronta para ajudar em tudo o语 que precisar"
+                "traducao": "Com medo de você??"
             },
             {
                 "caixa": 3,
@@ -3555,7 +3555,7 @@
                     0,
                     0
                 ],
-                "traducao": "Assustado?"
+                "traducao": "Com medo?"
             }
         ]
     },
@@ -3595,7 +3595,7 @@
                     0,
                     0
                 ],
-                "traducao": "Tá bom, então."
+                "traducao": "Tudo bem."
             },
             {
                 "caixa": 3,
@@ -3611,7 +3611,7 @@
                     0,
                     0
                 ],
-                "traducao": "Vou contar com você"
+                "traducao": "Eu vou contar com você."
             }
         ]
     },
@@ -3635,7 +3635,7 @@
                     0,
                     0
                 ],
-                "traducao": "Sim, agora pode ficar aqui."
+                "traducao": "Agora já posso ficar por aqui, não é?"
             },
             {
                 "caixa": 2,
@@ -3651,7 +3651,7 @@
                     0,
                     0
                 ],
-                "traducao": "Não fique tão perto de mim..."
+                "traducao": "Não fique tão perto de mim...!"
             },
             {
                 "caixa": 3,
@@ -3667,7 +3667,7 @@
                     0,
                     0
                 ],
-                "traducao": "Não, não pode ser!"
+                "traducao": "Hã? Não"
             },
             {
                 "caixa": 4,
@@ -3683,7 +3683,7 @@
                     255,
                     255
                 ],
-                "traducao": "Você vai encontrar isso disponível até o capítulo 15, exclusivamente em nosso site."
+                "traducao": "É possível encontrá-lo até o capítulo 15, exclusivamente em nosso site."
             },
             {
                 "caixa": 5,
